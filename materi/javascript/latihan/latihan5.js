@@ -492,7 +492,7 @@ dat.onreadystatechange = function () {
         wktu.classList.toggle("hilang");
 
         //nilai disimpan ke local storage
-        localStorage.setItem("nkuis4", hasilakhir);
+        localStorage.setItem("nkuis5", hasilakhir);
         console.log(localStorage);
       }
     }, 1000);
@@ -607,7 +607,7 @@ dat.onreadystatechange = function () {
       }
 
       //nilai disimpan ke local storage
-      localStorage.setItem("nkuis4", hasilakhir);
+      localStorage.setItem("nkuis5", hasilakhir);
       console.log(localStorage);
     });
 
@@ -632,7 +632,7 @@ dat.onreadystatechange = function () {
     }
   }
 };
-dat.open("GET", "/materi/json/kuis4.json", true);
+dat.open("GET", "/materi/json/kuis5.json", true);
 dat.send();
 
 // menyimpan ke dalam databasenya
@@ -683,6 +683,6 @@ function createTask(sekolah, nama, kelas, nilai, waktunya, hari, jawab) {
     jawabsiswa: jawab,
   };
 
-  let database = firebase.database().ref("kuis4/" + counter);
+  let database = firebase.database().ref("kuis5/" + counter);
   database.set(task);
 }

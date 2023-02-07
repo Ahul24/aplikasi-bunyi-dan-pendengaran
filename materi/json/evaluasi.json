@@ -1,0 +1,184 @@
+[{
+    "soal0": {
+        "soal": "Manusia dapat berbicara karena. . . .",
+        "a": "a. Memiliki tenggorokan",
+        "b": "b. Memiliki gigi",
+        "c": "c. Memiliki pita suara",
+        "d": "d. Ada udara dalam perut",
+        "benar": "c"        
+    }
+},{
+    "soal1": {
+        "soal": "kelelawar memiliki pendengaran paling sensitif, frekuensi bunyi yang dapat di dengar kekelawar adalah...",
+        
+        "a": "a. 15 Hz",
+        "b": "b. <20 Hz",
+        "c": "c. 20 Hz - 20.000 Hz",
+        "d": "d. >20.000",
+        "benar": "d"        
+    }        
+},{
+    "soal2": {
+        "soal": "Hewan yang memiliki pendengaran dengan frekuensi infrasonic dibawah 20 Hz . .",
+        "a": "a. Jangkrik",
+        "b": "b. Manusia",
+        "c": "c. Lumba - lumba",
+        "d": "d. Kekelawar",
+        "benar": "a"
+    }
+},{
+    "soal3": {
+        "soal": "Saat hujan turun kita sering mendengar atap seng kita bergemuruh, hal itu dapat membuktikan bunyi merambat melalui. . . . .",
+        "a": "a. Zat cair",
+        "b": "b. Zat padat",
+        "c": "c. Zat gas",
+        "d": "d. Semua benar",
+        "benar": "d"
+    }
+},{
+   "soal4": {
+        "soal": "Benda yang memiliki fungsi menghasilkan bunyi di sebut . . ",
+        "a": "a. Gelombang bunyi",
+        "b": "b. Sumber bunyi",
+        "c": "c. Frekuensi bunyi",
+        "d": "d. Nada musik",
+        "benar": "b"
+    }
+},{    
+    "soal5": {
+        "soal": "Bunyi ultrasonik memiliki kekuatan bunyi   . . . ",
+        "a": "a. Sedang",
+        "b": "b. Lemah",
+        "c": "c. Kuat",
+        "d": "d. Rendah",
+        "benar": "c"
+    }
+},{ 
+    "soal6": {
+        "soal": "Dibawah ini yang merupakan sumber bunyi adalah. . .",
+        "a": "a. Gendang di atas lemari",
+        "b": "b. Gitar anti",
+        "c": "c. Piano yang di mainkan",
+        "d": "d. biola di gantung",
+        "benar": "c"
+    }
+},{ 
+    "soal7": {
+        "soal": "Bunyi merambat paling lambat melalui. . . . ",
+        "a": "a. Ruang hampa",
+        "b": "b. Udara",
+        "c": "c. Dinding semen",
+        "d": "d. Baja",
+        "benar": "a"
+    }
+},{ 
+    "soal8": {        
+        "soal": "Pristiwa ikut bergetarnya suatu benda di karenakan pengaruh benda lain di sebut. . .",
+        "a": "a. Frekuensi",
+        "b": "b. Resonansi",
+        "c": "c. Periode",
+        "d": "d. Amplitudo",
+        "benar": "b"
+    }
+},{
+    "soal9": {
+        "soal": "Ketika kita melihat orang yang berteriak pada jarak yang jauh, bunyi orng berteriak pada jarak yang jauh itu akan  terdengar beberapa saat setelah orang teriak mengeluarkan suara tinggi. Hal tersebut terjadi karena. .  ",
+        "a": "a. Perambatan bunyi memerlukan waktu",
+        "b": "b. kecepatan bunyi lebih kecil daripada kecepatan udara",
+        "c": "c. Pengarah gema yang terjadi",
+        "d": "d. Gangguan angin",
+        "benar": "a"
+    }
+    },{ 
+        "soal10": {        
+               "soal": "img src='/img/telinga.png'> <br> Yang menunjukan gambar gendang telinga terdapat pada angka. . .",
+               "a": "a. 8",
+               "b": "b. 9",
+               "c": "c. 7",
+               "d": "d. 6",
+               "benar": "a"
+           }
+   
+    },{ 
+       "soal11": {        
+                   "soal": "img src='/img/telinga.png'> <br> Saluran telinga luar terdapat  pada angka. . .",
+                   "a": "a. 8",
+                   "b": "b. 9",
+                   "c": "c. 7",
+                   "d": "d. 6",
+                   "benar": "b"
+               }
+    },{ 
+       "soal12": {        
+                       "soal": "img src='/img/telinga.png'> <br> Ruang siput di tunjukan pada angka. . .",
+                       "a": "a. 1",
+                       "b": "b. 2",
+                       "c": "c. 3",
+                       "d": "d. 4",
+                       "benar": "a"
+                   }
+    },{ 
+        "soal13": {        
+                           "soal": "Bunyi yang dapat di hasilkan dari alat music di bawah ini dengan cara <br> img src='/img/angklung.png'> <br> . . .",
+                           "a": "a. Ditiup",
+                           "b": "b. Di goyang",
+                           "c": "c. Di petik",
+                           "d": "d. Di pukul",
+                           "benar": "b"
+                       }
+    },{ 
+        "soal14": {        
+                               "soal": "Bunyi pantul yang di dengar setelah bunyi asli selesai adalah. . .",
+                               "a": "a. Gema",
+                               "b": "b. Gaung",
+                               "c": "c. Pantulan",
+                               "d": "d. Bunyi asli",
+                               "benar": "a"
+                           }
+    },{ 
+       "soal15": {        
+                "soal": "Suara yang dapat  di dengar lumba-lumba adalah. . .",
+                "a": "a. Audiosonik",
+                "b": "b. Ultrasonik",
+                "c": "c. Infrasonik",
+                "d": "d. Supersonik",
+                "benar": "b"
+                }
+    
+   },{ 
+        "soal16": {        
+                                           "soal": "satuan yang menyatakan banyak getaran setiap detik adalah. . .",
+                                           "a": "a. meter",
+                                           "b": "b. Volt",
+                                           "c": "c. Amper",
+                                           "d": "d. Hz",
+                                           "benar": "d"
+                                       }
+    },{ 
+                                           "soal17": {        
+                                               "soal": "Tempat di bawah ini yang sering terjadi gaung adalah. . .",
+                                               "a": "a. Bioskop",
+                                               "b": "b. Lapangan",
+                                               "c": "c. Gua",
+                                               "d": "d. Studio",
+                                               "benar": "c"
+                                           }
+                                           },{
+       "soal18": {
+           "soal": "Di bawah ini contoh sumber bunyi yang BENAR adalah. .  ",
+           "a": "a. Lonceng dan kertas",
+           "b": "b. Pita suara dan lonceng",
+           "c": "c. Gitar dan kaca",
+           "d": "d. kaca dan klakson",
+           "benar": "b"
+       } 
+       },{ 
+        "soal19": {        
+                                       "soal": "Medium paling burung untuk rambat bunyi adalah . . .",
+                                       "a": "a. Gas",
+                                       "b": "b. Ruang hampa",
+                                       "c": "c. Padat",
+                                       "d": "d. Cair",
+                                       "benar": "b"
+                                   }   
+}]

@@ -1,0 +1,92 @@
+[{
+    "soal0": {
+        "soal": "Alat musik suling menghasilkan bunyi dengan cara. . . .",
+        "a": "a. Ditiup",
+        "b": "b. Dipukul",
+        "c": "c. dipetik",
+        "d": "d. digesek",
+        "benar": "a"        
+    }
+},{
+    "soal1": {
+        "soal": "Berikut adalah alat musik yang menghasilkan bunyi . <br> 1) Suling <br> 2) Angklung <br> 3) Gitar <br> 4) Gendang <br> Alat musik mana yang menghasilkan bunyi dengan cara di pukul  . . .",
+        
+        "a": "a. 1",
+        "b": "b. 2",
+        "c": "c. 3",
+        "d": "d. 4",
+        "benar": "d"        
+    }        
+},{
+    "soal2": {
+        "soal": "Di bawah ini alat yang dapat digunakan untuk meredam bunyi adalah. . .",
+        "a": "a. Karpet",
+        "b": "b. Lembaran alumunium",
+        "c": "c. Dinding tembok",
+        "d": "d. Lembaran kayu",
+        "benar": "a"
+    }
+},{
+    "soal3": {
+        "soal": "Di bawah ini pernyataan yang benar apabila bunyi tidak terdenga. . .",
+        "a": "a. Sumber bunyi bergerak",
+        "b": "b. Sebuah ruangan harus memiliki medium",
+        "c": "c. Harus ada penerima atau telinga mendengar",
+        "d": "d. Ruangan hampa",
+        "benar": "d"
+    }
+},{
+   "soal4": {
+        "soal": "Alat musik yang berbunyi dengan cara di pukul adalah. . . ",
+        "a": "a. angklung",
+        "b": "b. gendang",
+        "c": "c. gitar",
+        "d": "d. suling",
+        "benar": "b"
+    }
+},{    
+    "soal5": {
+        "soal": "Ketika kita melihat orang yang sedang menebang kayu pada jarak yang jauh, bunyi beradunya kapak terdengar beberapa saat setelah kapak mengenai pohon. Hal tersebut terjadi karena. . .",
+        "a": "a. Perambatan bunyi memerlukan waktu",
+        "b": "b. Kecepatan bunyi lebih kecil dari pada kecepatan udara",
+        "c": "c. Pengaruh gema yang terjadi",
+        "d": "d. Gangguan angin",
+        "benar": "a"
+    }
+},{ 
+    "soal6": {
+        "soal": "Berikut adalah alat musik yang menghasilkan bunyi. <br> 1) Suling <br> 2) Lampu <br> 3) Angklung <br> 4) Gitar <br> Alat musik mana yang menghasilkan bunyi . . .",
+        "a": "a. 1-2-3",
+        "b": "b. 2-3-4",
+        "c": "c. 1-3-4",
+        "d": "d. 1-2-4",
+        "benar": "c"
+    }
+},{ 
+    "soal7": {
+        "soal": "Gitar menghasilkan suara dengan cara. . . ",
+        "a": "a. Ditiup",
+        "b": "b. Dipukul",
+        "c": "c. Dipetik",
+        "d": "d. Digesek",
+        "benar": "c"
+    }
+},{ 
+    "soal8": {        
+        "soal": "Cara kita menghasilkan bunyi selain bersiul adalah. . .",
+        "a": "a. Berkrdip",
+        "b": "b. Bernapas",
+        "c": "c. Tepuk tangan",
+        "d": "d. Berjalan",
+        "benar": "c"
+    }
+},{
+    "soal9": {
+        "soal": "Angklung berasal dari daerah. . ",
+        "a": "a. Jawa timur",
+        "b": "b. Jawa barat",
+        "c": "c. Kalimantan selatan",
+        "d": "d. Kalimantan barat",
+        "benar": "b"
+    }
+}]

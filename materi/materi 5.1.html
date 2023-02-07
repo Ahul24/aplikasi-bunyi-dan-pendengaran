@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>SIFAT-SIFAT BUNYI</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="/materi/css/style.css">
+    <link rel="stylesheet" href="/materi/css/style hover.css">
+    <link rel="stylesheet" type="text/css" href="/css/lat1.css">
+    <link rel="stylesheet" type="text/css" href="/css/isi1.css">
+    <link href="javascript/drag/assets/css/style.css" rel="stylesheet">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+               <a href="../index.html"><h3 class="font-weight-bold"><i class="fas fa-home"></i>SIFAT-SIFAT BUNYI</h3> </a> 
+            </div>
+            <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+                <!-- Sidebar Toggler (Sidebar) -->
+                <div class="mt-3 text-center d-none d-md-inline">
+                    <button class=""> Daftar Isi </button>
+                </div>
+    
+                <!-- Sidebar - Brand -->
+              
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+            
+            <!-- Materi 1 -->
+            <li class="nav-item">
+                <a id="sub1" class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#materi1"
+                    aria-expanded="false" aria-controls="materi1">
+                    
+                    <i class="fas fa-book fa-lg fa-2x" ></i>
+                    <span class="h6 ml-3">Bunyi</span>
+                </a>
+                <div id="materi1" class="collapse " aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="collapse-inner rounded p-1 " style="font-size: 13px;">
+                        <div class="bg-white text-dark collapse-inner rounded p-2 ml-2 mr-2">
+                        <h6 class="collapse-header text-center">Bunyi</h6>
+                        <a class="collapse-item " href="materi 1.1.html"><i class="fas fa-book-open mr-2"></i> Sumber Bunyi</a>
+                        <hr class="sidebar-divider my-0 bg-primary"> 
+                        <a class=" collapse-item " href="materi 1.2.html"><i class="fas fa-book-open mr-2"></i>Jenis Bunyi</a>
+                        <hr class="sidebar-divider my-0 bg-primary">
+                        <a class="collapse-item " href="./latihan/latihan1.html"><i class="fas fa-th-list mr-2"></i> Soal Latihan</a>
+                        <hr class="sidebar-divider my-0 bg-primary">  
+                       
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+            <!-- Materi 2 -->
+            <li class="nav-item ">
+                <a id="sub2" class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#materi2"
+                    aria-expanded="false" aria-controls="materi2">
+                    <i class="fas fa-book fa-lg fa-2x"></i>
+                    <span class="h6 ml-4">Sifat-Sifat bunyi</span>
+                </a>
+                <div id="materi2" class="collapse " aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="collapse-inner rounded p-1 " style="font-size: 13px;">
+                        <div class="bg-white text-dark collapse-inner rounded p-2 ml-2 mr-2">
+                            <h6 class="collapse-header text-center">Sifat-Sifat bunyi</h6>
+                        <a class="collapse-item " onclick="index2();" style="cursor:pointer;" href="materi 2.html"><i class="fas fa-book-open mr-2"></i>Bunyi dapat merambat</a></a>
+                        <hr class="sidebar-divider my-0 bg-primary">
+                        <a class="collapse-item " onclick="index2_1();" style="cursor:pointer;" href="materi 2.html"><i class="fas fa-book-open mr-2"></i>Bunyi dapat di pantulkan</a></a>
+                        <hr class="sidebar-divider my-0 bg-primary">
+                        <a class="collapse-item" onclick="sub2_1();" style="cursor:pointer;" href="./latihan/latihan2.html"><i class="fas fa-th-list mr-2"></i>Soal Latihan</a>
+                        <hr class="sidebar-divider my-0 bg-primary">  
+            
+                    </div>
+                </div>
+            </li>
+
+            <!-- Divider -->
+            <hr>
+            <!-- Materi 3 -->
+            <li class="nav-item">
+                <a id="sub3" class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#materi3"
+                    aria-expanded="false" aria-controls="materi3">
+                    <i class="fas fa-book fa-lg fa-2x"style="position: absolute;" ></i>
+                    <span class="h6 ml-5">Manfaat Pemantulan Bunyi</span>
+                </a>
+                <div id="materi3" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="collapse-inner rounded p-1 " style="font-size: 13px;">
+                        <div class="bg-white text-dark collapse-inner rounded p-2 ml-2 mr-2">
+                            <h6 class="collapse-header text-center">Manfaat Pemantulan Bunyi</h6>
+                        <a class="collapse-item" onclick="index3();" style="cursor:pointer;" href="materi 3.html"><i class="fas fa-book-open mr-2"></i>Mendeteksi keretakan pada logam</a>
+                        <hr class="sidebar-divider my-0 bg-primary">
+                        <a class="collapse-item" onclick="index3_1();" style="cursor:pointer;" href="materi 3.html"><i class="fas fa-book-open mr-2"></i>USG</a>
+                        <hr class="sidebar-divider my-0 bg-primary">
+                        <a class="collapse-item" onclick="index3();" style="cursor:pointer;" href="materi 3.html"><i class="fas fa-book-open mr-2"></i>Mengukur kedalaman laut</a>
+                        <hr class="sidebar-divider my-0 bg-primary">
+                        <a class="collapse-item" onclick="sub3_1();" style="cursor:pointer;" href="./latihan/latihan3.html"><i class="fas fa-th-list mr-2"></i>Soal Latihan</a>
+                        <hr class="sidebar-divider my-0 bg-primary">  
+             
+                    </div>
+                </div>
+            </li><hr>
+            <li class="nav-item">
+                <a id="sub4" class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#materi4"
+                    aria-expanded="false" aria-controls="materi4">
+                    <i class= "fas fa-book fa-lg fa-2x"style="position: absolute;"></i>
+                    <span class="h6 ml-5 ">  Telinga Sebagai Indra Pendengar</span>
+                </a>
+                <div id="materi4" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="collapse-inner rounded p-1 " style="font-size: 13px;">
+                        <div class="bg-white text-dark collapse-inner rounded p-2 ml-2 mr-2">
+                            <h6 class="collapse-header text-center">Bunyi Pada Alat Musik</h6>
+                        <a class="collapse-item" onclick="index4();" style="cursor:pointer;" href="materi 4.1 .html"><i class="fas fa-book-open mr-2"></i>Gitar</a>
+                        <hr class="sidebar-divider my-0 bg-primary">
+                        <a class="collapse-item" onclick="index4_1();" style="cursor:pointer;" href="materi 4.2.html"><i class="fas fa-book-open mr-2"></i>Perkusi atau alat musik pukul</a>
+                        <hr class="sidebar-divider my-0 bg-primary">
+                        <a class="collapse-item" onclick="index4_2();" style="cursor:pointer;" href="materi 4.html"><i class="fas fa-book-open mr-2"></i>Suling</a>
+                        <hr class="sidebar-divider my-0 bg-primary">
+                        <a class="collapse-item" onclick="sub4_1();" style="cursor:pointer;" href="./latihan/latihan4.html"><i class="fas fa-th-list mr-2"></i>Soal Latihan</a>
+                        <hr class="sidebar-divider my-0 bg-primary">  
+             
+                    </div>
+                </div>
+            </li> <hr>
+            <li class="nav-item active">
+                <a id="sub5" class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#materi5"
+                    aria-expanded="true" aria-controls="materi5">
+                    <i class="fas fa-book-open fa-2x"  style="position: absolute;"></i>
+                    <span class="h6 ml-5 ">  Telinga Sebagai Indra Pendengar</span>
+                </a>
+                <div id="materi5" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="collapse-inner rounded p-1 " style="font-size: 13px;">    
+                    <div class="bg-white text-dark collapse-inner rounded p-2 ml-2 mr-2">
+                            <h6 class="collapse-header text-center">Bunyi Pada Alat Musik</h6>
+                        <a class="bg-white text-secondary collapse-item active " onclick="index5();" style="cursor:pointer;" href="#"><i class="fas fa-book-open mr-2"></i>Bagian-bagian Telinga</a>
+                        <hr class="sidebar-divider my-0 bg-primary">
+                        <a class="collapse-item" onclick="index5_1();" style="cursor:pointer;" href="materi 5.2.html"><i class="fas fa-book-open mr-2"></i>Gangguan pendengaran</a>
+                        <hr class="sidebar-divider my-0 bg-primary">
+                        <a class="collapse-item" onclick="index5_2();" style="cursor:pointer;" href="materi 5.html"><i class="fas fa-book-open mr-2"></i>Cara merawat telinga</a>
+                        <hr class="sidebar-divider my-0 bg-primary">
+                        <a class="collapse-item" onclick="sub5_1();" style="cursor:pointer;" href="./latihan/latihan4.html"><i class="fas fa-th-list mr-2"></i>Soal Latihan</a>
+                        <hr class="sidebar-divider my-0 bg-primary">  
+             
+                    </div>
+                </div>
+            </li> <hr>
+            <li>
+                <a href="../materi/materi 1.html"><i class="fas fa-map-signs fa-2x mr-2"></i>Evaluasi</a>
+            </li>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span> TUTUP</span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <a href="../index.html"><i class="fas fa-align-justify"> </i></a>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link " href="#"></a></i></a>
+                            </li>
+                         
+                    </div>
+                </div>
+            </nav>
+ <!-- Content here -->
+            <div class="text-center text-white rounded  " style="height: 80px; background-color: #07575b; "> <br> <h1>PEMBAHASAN</h1></div>
+          
+            <br/>
+            
+
+           
+            <div class="flex-row overflow-auto  text-justify w-90 p-3 mr-4 ml-4 p-5" style="  height: 500px; background-color: rgb(198, 193, 185); overflow: auto">
+               
+              
+<!-- Nav pills -->
+
+  
+  <!-- Tab panes -->
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane active " id="home"> 
+        <div class="container ">
+           <center> <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#demo">Tujuan Pembelajaran</button></center>
+            <div id="demo" class="collapse border border border-success border-bottom-0 border-4 bg-white p-4 text-center rounded-bottom" >
+                <b>Setelah mempelajari topic ini yang di harapkan </b>
+                <br>
+                <p>- Siswa bisa dan dapat menyimpulkan syarat terjadinya bunyi</p>
+                
+            </div>
+          </div>
+          <hr>
+     
+        <p> 
+            &emsp; &emsp; Bunyi merupakan sesuatu getaran pada benda yang merambat dalam bentu gelombang. Disebabkan karena bunyi disebut sebagai gelombang bunyi. Bunyi yang merambat melalui benda perantara. Di dalam suatu ruang hampa yang terdapat suatu bunyi tidak dapat merambat disebabkan dalam ruang hampa tidak terdapat medium atau perantara berupa udara. Jadi suatu bunyi yang merambat melalui tiga perantara atau medium yaitu medium zat padat, medium zat cair, dan medium zat gas atau udara.  Contoh gambar seperti di bawah :</p>
+            <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <center> <img src="../img/media pengantar melalui udara.png" class="img-fluid" alt="Tabung"> <p class="" style="font-style: italic; font-size: 10px;"> Media penghantar melalui zat udara  </p>
+                    </center>
+                  </div>
+                  <div class="col">
+                    <center> <img src="../img/media pengantar melalui udara.png" class="img-fluid" alt="Tabung"> <p class="" style="font-style: italic; font-size: 10px;">media penghantar melalui zat padat</p>
+                    </center>
+                  </div>
+                  <div class="col-sm">
+                 <center> <img src="../img/media pengantar melalui udara.png" class="img-fluid" alt="Tabung"> <p class="" style="font-style: italic; font-size: 10px;"> Media Penghantar Melalui Zat Cair</p>
+                 </center>
+                  </div>
+                </div>
+              </div>
+
+
+    </div>
+
+  
+
+
+</div>
+</div>
+
+<div class="d-flex justify-content-center my-2">
+    <a href="latihan1.html"><button class="btn btn-primary"style="background-color: #07575b; border: 0;" type="button">SELANJUTNYA</button></a>
+  </div>
+</div>
+
+</div>
+
+</div>
+
+
+      
+    
+         
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+   
+    <script src="javascript/ceklis/script.js"></script>
+    <script src="javascript/js.js"></script>
+
+</body>
+
+
+</html>
+ 

@@ -1,11 +1,12 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyApEE663M61t7FYmXYudRfdTFve2-KfXDA",
-  authDomain: "sifat-bunyi.firebaseapp.com",
-  projectId: "sifat-bunyi",
-  storageBucket: "sifat-bunyi.appspot.com",
-  messagingSenderId: "50185810921",
-  appId: "1:50185810921:web:146cc524e59d9dbc095178",
-  measurementId: "G-4BL82CEMLV",
+  apiKey: "AIzaSyCZzSfPM6aeqowupsbmO3zYEzzgpLgQMRQ",
+  authDomain: "aplikasi-sifat-bunyi.firebaseapp.com",
+  databaseURL: "https://aplikasi-sifat-bunyi-default-rtdb.firebaseio.com",
+  projectId: "aplikasi-sifat-bunyi",
+  storageBucket: "aplikasi-sifat-bunyi.appspot.com",
+  messagingSenderId: "230089203760",
+  appId: "1:230089203760:web:b4c27544e131802cc98df5",
+  measurementId: "G-20Q2DGB89F",
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);

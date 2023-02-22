@@ -1,3 +1,9 @@
+const video = document.querySelector("video");
+
+video.onended = function () {
+  document.getElementById("latihanhide").hidden = false;
+};
+
 function allowDrop(ev) {
   ev.preventDefault();
 }
@@ -58,6 +64,79 @@ function cekKel() {
                             Silahkan coba lagi
                             </div>`;
   }
+}
+
+let b1 = document.getElementById("b1");
+let b2 = document.getElementById("b2");
+let b3 = document.getElementById("b3");
+
+let bb1 = document.getElementById("bb1");
+let bb2 = document.getElementById("bb2");
+let bb3 = document.getElementById("bb3");
+
+function cek1() {
+  if (
+    b1.innerText == "memantul" &&
+    b2.innerText == "terlihat" &&
+    b3.innerText == "dipantulkan"
+  ) {
+    const jawabcek1 = document.getElementById("jawabcek1");
+    jawabcek1.innerHTML = `<div class="pembahasan mt-3 mr-3 p-3">
+                            Jawaban Anda ${benar}<br>
+                            <div class="pembahasan2">
+                            <u>Pembahasan :</u>
+                            </div>
+                            Ketika laser dinyalakan dan diarahkan menuju penggaris, cahaya laser akan terlihat <span class="benar">memantul</span> begitu juga saat kita keluar ruangan dengan membawa cermin yang diarahkan ke tembok, maka cahaya matahari akan <span class="benar">terlihat</span> di tembok. Dari kegiatan tersebut maka dapat disimpulkan bahwa cahaya memiliki sifat dapat <span class="benar">dipantulkan</span>.
+                            </div>`;
+  } else {
+    const jawabcek1 = document.getElementById("jawabcek1");
+    jawabcek1.innerHTML = `<div class="pembahasan mt-3 mr-3 p-3">
+                            Jawaban Anda ${salah}<br>
+                            <div class="pembahasan2">
+                            <u>Pembahasan :</u>
+                            </div>
+                            Silahkan ulangi dan coba jawab lagi
+                            </div>`;
+  }
+  const kterlihat = document.getElementById("kterlihat");
+  const kmemantul = document.getElementById("kmemantul");
+  const kdipantulkan = document.getElementById("kdipantulkan");
+  const kmembias = document.getElementById("kmembias");
+  const kdibiaskan = document.getElementById("kdibiaskan");
+  const kcerminan = document.getElementById("kcerminan");
+  kterlihat.draggable = false;
+  kmemantul.draggable = false;
+  kdipantulkan.draggable = false;
+  kmembias.draggable = false;
+  kcerminan.draggable = false;
+  kdibiaskan.draggable = false;
+}
+
+function repeatt2() {
+  const kterlihat = document.getElementById("kterlihat");
+  const kmemantul = document.getElementById("kmemantul");
+  const kdipantulkan = document.getElementById("kdipantulkan");
+  const kmembias = document.getElementById("kmembias");
+  const kdibiaskan = document.getElementById("kdibiaskan");
+  const kcerminan = document.getElementById("kcerminan");
+  kterlihat.draggable = true;
+  kmemantul.draggable = true;
+  kdipantulkan.draggable = true;
+  kmembias.draggable = true;
+  kcerminan.draggable = true;
+  kdibiaskan.draggable = true;
+  const jawabcek1 = document.getElementById("jawabcek1");
+  jawabcek1.innerHTML = "";
+  b1.innerText = "";
+  b2.innerText = "";
+  b3.innerText = "";
+  const pilihan1 = document.getElementById("pilihan1");
+  pilihan1.innerHTML = `<span id="kterlihat" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">terlihat</span>
+    <span id="kdibiaskan" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">dibiaskan</span>
+    <span id="kmemantul" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">memantul</span>
+    <span id="kcerminan" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">cerminan</span>
+    <span id="kmembias" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">membias</span>
+    <span id="kdipantulkan" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">dipantulkan</span>`;
 }
 
 // window.onload = function awalMateri() {
@@ -194,4 +273,3 @@ function cekKel() {
 //     .getElementById("prev")
 //     .setAttribute("onClick", "javascript: tiga();");
 //   document.getElementById("mnext").hidden = false;
-// }

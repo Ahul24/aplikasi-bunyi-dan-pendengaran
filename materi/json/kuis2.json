@@ -1,91 +1,100 @@
 [{
     "soal0": {
-        "soal": "Bunyi yang memiliki frekuensi teratur di sebut. .",
-        "a": "a. Nada",
-        "b": "b. Desah",
-        "c": "c. Warna bunyi atau timbre",
-        "d": "d. Dentum",
+        "soal": "Ketika kita melihat orang yang sedang menebang kayu pada jarak yang jauh, bunyi beradunya kapak terdengar beberapa saat setelah kapak mengenai pohon. Hal tersebut terjadi karena …",
+        "a": "a. Perambataan bunyi memerlukan waktu",
+        "b": "b. Kecepatan bunyi lebih kecil daripada kecepatan udara",
+        "c": "c. Pengaruh gema yang terjadi",
+        "d": "d. Gangguan angin",
         "benar": "a"        
     }
 },{
     "soal1": {
-        "soal": "Benda yang menghasilkan bunyi di akibatkan benda tersebut. .",
-        "a": "a. Bergerak",
-        "b": "b. Berputar",
-        "c": "c. Bergetar",
-        "d": "d. Berlubang",
-        "benar": "c"        
+    
+        "soal": "Gaung adalah bunyi pantul yang terdengar hampir bersamaan dengan bunyi asli, sehingga bersifat mengganggu. Gaung dapat diatasi dengan cara...",
+        "a": "a. Menyesuaikan frekuensi sumber bunyi",
+        "b": "b. Melapisi dinding dengan zat pemantul yang baik",
+        "c": "c. Melapisi dinding dengan zat yang dapat meredam bunyi",
+        "d": "d. Menurunkan tinggi nada",
+        "benar": "c" 
     }        
 },{
     "soal2": {
-        "soal": "bunyi yang memiliki frekuensi sama namun terdengar berbeda adalah. .",
-        "a": "a. desah",
-        "b": "b. Nada",
-        "c": "c. Dentum",
-        "d": "d. Warna bunyi atau timbre",
-        "benar": "d"
+ 
+        "soal": "Gelombang bunyi yang mengenai permukaan keras akan ...",
+        "a": "a. Dibiaskan",
+        "b": "b. Dipantulkan",
+        "c": "c. Diteruskan",
+        "d": "d. Hilang",
+        "benar": "b"
     }
 },{
     "soal3": {
-        "soal": "dentum menghasilkan bunyi . . .",
-        "a": "a. bunyi yang memiliki amplitudo sangat besar serta terdengar begitu mendadak",
-        "b": "b. bunyi yang memiliki frekuensi tidak teratur",
-        "c": "c. bunyi yang memiliki frekuensi sama namun terdengar berbeda",
-        "d": "d. bunyi yang memiliki frekuensi teratur",
+   
+        "soal": "Bunyi pantul akan memperkuat bunyi asli apabila...",
+        "a": "a. Jarak dinding pemantul sangat dekat",
+        "b": "b. Jarak dinding pemantul cukup jauh",
+        "c": "c. Jarak dinding pemantul sedang",
+        "d": "d. Tidak bergantung pada jarak dinding pemantul",
         "benar": "a"
     }
 },{
    "soal4": {
-        "soal": "apa yang di hasilkan apabila senar gitar di petik. . . ",
-        "a": "a. Bunyi nyaring",
-        "b": "b. Senar gitar akan bergetar",
-        "c": "c. Menghasilkan gelombang bunyi",
-        "d": "d. Semua benar",
-        "benar": "d"
+       
+        "soal": "Kuat lemahnya bunyi tergantung pada ...",
+        "a": "a. Frekuensi",
+        "b": "b. Resonansi",
+        "c": "c. Amplitudo",
+        "d": "d. Jarak",
+        "benar": "c"
     }
 },{    
     "soal5": {
-        "soal": "semua benda yang dapat menghasilkan bunyi disebut. . .",
-        "a": "a. Jenis bunyi",
-        "b": "b. Ciri-ciri bunyi",
-        "c": "c. Sumber bunyi",
-        "d": "d. Dasar bunyi",
-        "benar": "c"
+      
+        "soal": "Di bawah ini alat yang dapat digunakan unduk meredam bunyi adalah...",
+        "a": "a. Karpet",
+        "b": "b. Lembaran alumunium",
+        "c": "c. Dinding tembok",
+        "d": "d. Lembaran kayu",
+        "benar": "a"
     }
 },{ 
     "soal6": {
-        "soal": "berikut ini adalah contoh sumber bunyi, kecuali . . .",
-        "a": "a. Gitar",
-        "b": "b. Lampu",
-        "c": "c. Seruling",
-        "d": "d. Gendang",
-        "benar": "b"
+     
+        "soal": "Syarat terjadinya resonansi adalah...",
+        "a": "a. Frekuensinya sama",
+        "b": "b. Frekuensinya berbeda",
+        "c": "c. Amplitudonya sama",
+        "d": "d. Amplitudonya berbeda",
+        "benar": "a"
     }
+
 },{ 
-    "soal7": {
-        "soal": "bahan yang permukannya lunak dapat di jadikan sebagai . . . . . . bunyi",
-        "a": "a. Nada",
-        "b": "b. Peredam",
-        "c": "c. Pantulan",
-        "d": "d. Sumber bunyi",
-        "benar": "b"
-    }
-},{ 
-    "soal8": {        
-        "soal": "bunyi dapat terdengar oleh telinga kita karena sumber bunyi mengalami . . .",
-        "a": "a. Pantulan",
-        "b": "b. Perambatan ",
-        "c": "c. Pendinginan",
-        "d": "d. Pemuaian",
-        "benar": "b"
+    "soal7": {        
+        "soal": "Ketika kita memegang tenggorokan pada saat berbicara, maka akan merasakan adanya getaran. Hal ini membuktikan bahwa...",
+        "a": "a. Otot tenggorokan selalu bergetar",
+        "b": "b. Sumber bunyi adalah tenggorokan",
+        "c": "c. Berbicara memerlukan energi",
+        "d": "d. Bunyi merambat melalui tenggorokan ",
+        "benar": "d"
     }
 },{
+    "soal8": {
+      
+        "soal": "Peristiwa turut bergetarnya suatu benda akibat benda lain yang bergetar karena keduanya memiliki frekuensi yang sama disebut...",
+        "a": "a. Difraksi ",
+        "b": "b. Interferensi",
+        "c": "c. Refleksi",
+        "d": "d. Resonansi",
+        "benar": "d" 
+    }
+},{ 
     "soal9": {
-        "soal": "suara bel sekolah terdengar oleh seluruh kelas di sekolah karena suara bel merambat melalui . . .",
-        "a": "a. Udara",
-        "b": "b. Ruang hampa",
-        "c": "c. Air",
-        "d": "d. Dinding ",
-        "benar": "a"
+     
+        "soal": "Tinggi rendahnya nada dipengaruhi oleh...",
+        "a": "a. Amplitudo",
+        "b": "b. Panjang gelombang",
+        "c": "c. Cepat rambat gelombang ",
+        "d": "d. Frekuensi ",
+        "benar": "d"
     }
 }]

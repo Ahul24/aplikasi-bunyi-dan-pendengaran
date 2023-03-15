@@ -1,10 +1,10 @@
 [{
     "soal0": {
-        "soal": "Ketika kita memegang tenggorokan pada saat berbicara, maka akan merasakan adanya getaran. Hal ini membuktikan bahwa. . .",
+        "soal": "Ketika kita memegang tenggorokan pada saat berbicara, maka akan merasakan adanya getaran. Hal ini membuktikan bahwa …",
         "a": "a. Otot tenggorokan selalu bergetar",
         "b": "b. Sumber bunyi adalah tenggorokan",
         "c": "c. Berbicara memerlukan energi",
-        "d": "d. Bunyi merambat melalui tenggrokan",
+        "d": "d. Bunyi merambat melalui tenggorokan",
         "benar": "d"        
     }
 },{
@@ -82,12 +82,12 @@
     }
  },{ 
     "soal9": {        
-        "soal": "img src='/img/telinga.png'> <br> Pada gambar di atas pada angka 2 menunjukan. . .",
-        "a": "a. Telinga dalam",
-        "b": "b. Saluran setengah lingkaran",
-        "c": "c. Telinga tengah",
-        "d": "d. Telinga luar",
-        "benar": "a"
+        "soal": "Berikut merupakan pernyataan yang salah adalah. .",
+        "a": "a. Gendang telinga berfungsi menerima getaran bunyi dan daun telinga dan meneruskannya ke tulang-tulang pendengarannya.",
+        "b": "b. Selain sebagai indra pendengar, telinga juga berfungsi untuk menjaga keseimbangan.",
+        "c": "c. Membersihkan telinga",
+        "d": "d. Mendengar bunyi yang terlalu keras akan menjaga telinga tetap berfungsi dengan baik",
+        "benar": "d"
     }
 
  

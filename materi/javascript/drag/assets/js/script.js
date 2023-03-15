@@ -17,55 +17,13 @@ function drop(ev) {
   var data = ev.dataTransfer.getData("text");
   ev.target.appendChild(document.getElementById(data));
 }
-
-let bsetrika = document.getElementById("bsetrika");
-let ssetrika = document.getElementById("ssetrika");
-
-let bkipas = document.getElementById("bkipas");
-let skipas = document.getElementById("skipas");
-
-let bneon = document.getElementById("bneon");
-let sneon = document.getElementById("sneon");
-
-let bpijar = document.getElementById("bpijar");
-let spijar = document.getElementById("spijar");
-
-let bsolder = document.getElementById("bsolder");
-let ssolder = document.getElementById("ssolder");
-
-let bpemanas = document.getElementById("bpemanas");
-let spemanas = document.getElementById("spemanas");
-
+const benar = '<span style="color : green;">Benar</span>';
+const salah = '<span style="color : red;">Salah</span>';
 // $(function(){
 //     setInterval(cek, 1000);
 // });
-const benar = '<span style="color : white;">Benar</span>';
-const salah = '<span style="color : white;">Salah</span>';
 
-let tarik = document.getElementById("tarik");
-
-function cekKel() {
-  if (tarik.innerText == "GitarSuling" || tarik.innerText == "SulingGitar") {
-    const jawabKel = document.getElementById("jawabKel");
-    jawabKel.innerHTML = `<div class="pembahasan mt-3 mr-3 p-3" style="background-color:blue;color:white;">
-                            Jawaban Anda ${benar}<br>
-                            <div class="pembahasan2">
-                            <u>Pembahasan :</u>
-                            </div>
-                            KESIMPULAN
-                            </div>`;
-  } else {
-    const jawabKel = document.getElementById("jawabKel");
-    jawabKel.innerHTML = `<div class="pembahasan mt-3 mr-3 p-3" style="background-color:red;color:white;">
-                            Jawaban Anda ${salah}<br>
-                            <div class="pembahasan2">
-                            
-                            </div>
-                            Silahkan coba lagi
-                            </div>`;
-  }
-}
-
+//marimencoba1
 let b1 = document.getElementById("b1");
 let b2 = document.getElementById("b2");
 let b3 = document.getElementById("b3");
@@ -76,17 +34,17 @@ let bb3 = document.getElementById("bb3");
 
 function cek1() {
   if (
-    b1.innerText == "memantul" &&
-    b2.innerText == "terlihat" &&
-    b3.innerText == "dipantulkan"
+    b1.innerText == "zat padat" &&
+    b2.innerText == "zat cair" &&
+    b3.innerText == "zat gas"
   ) {
     const jawabcek1 = document.getElementById("jawabcek1");
-    jawabcek1.innerHTML = `<div class="pembahasan mt-3 mr-3 p-3">
+    jawabcek1.innerHTML = `<div class="pembahasan mt-3 mr-3 p-3" >
                             Jawaban Anda ${benar}<br>
                             <div class="pembahasan2">
                             <u>Pembahasan :</u>
                             </div>
-                            Ketika laser dinyalakan dan diarahkan menuju penggaris, cahaya laser akan terlihat <span class="benar">memantul</span> begitu juga saat kita keluar ruangan dengan membawa cermin yang diarahkan ke tembok, maka cahaya matahari akan <span class="benar">terlihat</span> di tembok. Dari kegiatan tersebut maka dapat disimpulkan bahwa cahaya memiliki sifat dapat <span class="benar">dipantulkan</span>.
+                            Ketika dua kaleng atau gelas di hubungkan pada benang maka di sebut media pengantar melalui <span class="benar">zat padat</span>Satu gelas di hubungkan pada selang kecil maka di sebut media pengantar melalui<span class="benar">zat cair</span> satu buah wadah besar berisi air dan di masukan corong sebagian ujungnya pada wadah besar yang berisi air dan dengarkan saat kita pukul bagian wadah tersebut maka bisa di  sebut media pengantar melalui <span class="benar">zat gas</span>.
                             </div>`;
   } else {
     const jawabcek1 = document.getElementById("jawabcek1");
@@ -98,30 +56,30 @@ function cek1() {
                             Silahkan ulangi dan coba jawab lagi
                             </div>`;
   }
-  const kterlihat = document.getElementById("kterlihat");
-  const kmemantul = document.getElementById("kmemantul");
-  const kdipantulkan = document.getElementById("kdipantulkan");
+  const kzatpadat = document.getElementById("kzatpadat");
+  const kzatcair = document.getElementById("kzatcair");
+  const kzatgas = document.getElementById("kzatgas");
   const kmembias = document.getElementById("kmembias");
   const kdibiaskan = document.getElementById("kdibiaskan");
   const kcerminan = document.getElementById("kcerminan");
-  kterlihat.draggable = false;
-  kmemantul.draggable = false;
-  kdipantulkan.draggable = false;
+  kzatpadat.draggable = false;
+  kzatcair.draggable = false;
+  kzatgas.draggable = false;
   kmembias.draggable = false;
   kcerminan.draggable = false;
   kdibiaskan.draggable = false;
 }
 
 function repeatt2() {
-  const kterlihat = document.getElementById("kterlihat");
-  const kmemantul = document.getElementById("kmemantul");
-  const kdipantulkan = document.getElementById("kdipantulkan");
+  const kzatpadat = document.getElementById("kzatpadat");
+  const kzatcair = document.getElementById("kzatcair");
+  const kzatgas = document.getElementById("kzatgas");
   const kmembias = document.getElementById("kmembias");
   const kdibiaskan = document.getElementById("kdibiaskan");
   const kcerminan = document.getElementById("kcerminan");
-  kterlihat.draggable = true;
-  kmemantul.draggable = true;
-  kdipantulkan.draggable = true;
+  kzatpadat.draggable = true;
+  kzatcair.draggable = true;
+  kzatgas.draggable = true;
   kmembias.draggable = true;
   kcerminan.draggable = true;
   kdibiaskan.draggable = true;
@@ -131,12 +89,82 @@ function repeatt2() {
   b2.innerText = "";
   b3.innerText = "";
   const pilihan1 = document.getElementById("pilihan1");
-  pilihan1.innerHTML = `<span id="kterlihat" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">terlihat</span>
-    <span id="kdibiaskan" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">dibiaskan</span>
-    <span id="kmemantul" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">memantul</span>
+  pilihan1.innerHTML = `<span id="kzatpadat" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">zat padat</span>
+    <span id="kzatcair" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">zat cair</span>
+    <span id="kzatgas" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">zat gas</span>
     <span id="kcerminan" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">cerminan</span>
     <span id="kmembias" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">membias</span>
-    <span id="kdipantulkan" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">dipantulkan</span>`;
+    <span id="kdibiaskan" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">dipantulkan</span>`;
+}
+let a1 = document.getElementById("a1");
+let a2 = document.getElementById("a2");
+let a3 = document.getElementById("a3");
+let a4 = document.getElementById("a4");
+
+let ba1 = document.getElementById("ba1");
+let ba2 = document.getElementById("ba2");
+let ba3 = document.getElementById("ba3");
+let ba4 = document.getElementById("ba3");
+function cek2() {
+  if (
+    b1.innerText == "NADA" &&
+    b2.innerText == "DESAH" &&
+    b3.innerText == "TIMBRE" &&
+    b4.innerText == "DENTUM"
+  ) {
+    const jawabcek2 = document.getElementById("jawabcek2");
+    jawabcek2.innerHTML = `<div class="pembahasan mt-3 mr-3 p-3" >
+                            Jawaban Anda ${benar}<br>
+                            <div class="pembahasan2">
+                            <u>Pembahasan :</u>
+                            </div>
+                            Ketika dua kaleng atau gelas di hubungkan pada benang maka di sebut media pengantar melalui <span class="benar">NADA</span>Satu gelas di hubungkan pada selang kecil maka di sebut media pengantar melalui<span class="benar">DESAH</span> satu buah wadah besar berisi air dan di masukan corong sebagian ujungnya pada wadah besar yang berisi air dan dengarkan saat kita pukul bagian wadah tersebut maka bisa di  sebut media pengantar melalui <span class="benar">TIMBRE</span>. Ketika dua kaleng atau gelas di hubungkan pada benang maka di sebut media pengantar melalui <span class="benar">DENTUM</span>
+                            </div>`;
+  } else {
+    const jawabcek2 = document.getElementById("jawabcek2");
+    jawabcek2.innerHTML = `<div class="pembahasan mt-3 mr-3 p-3">
+                            Jawaban Anda ${salah}<br>
+                            <div class="pembahasan2">
+                            <u>Pembahasan :</u>
+                            </div>
+                            Silahkan ulangi dan coba jawab lagi
+                            </div>`;
+  }
+  const knada = document.getElementById("knada");
+  const kdesah = document.getElementById("kdesah");
+  const ktimbre = document.getElementById("ktimbre");
+  const kdentum = document.getElementById("kdentum");
+
+  knada.draggable = false;
+  kdesah.draggable = false;
+  ktimbre.draggable = false;
+  kdentum.draggable = false;
+}
+
+function repeatt3() {
+  const knada = document.getElementById("knada");
+  const kdesah = document.getElementById("kdesah");
+  const ktimbre = document.getElementById("ktimbre");
+  const kdentum = document.getElementById("kdentum");
+
+  knada.draggable = true;
+  kdesah.draggable = true;
+  ktimbre.draggable = true;
+  kdentum.draggable = true;
+
+  const jawabcek2 = document.getElementById("jawabcek2");
+  jawabcek2.innerHTML = "";
+  a1.innerText = "";
+  a2.innerText = "";
+  a3.innerText = "";
+  a4.innerText = "";
+  const pilihan2 = document.getElementById("pilihan2");
+  pilihan2.innerHTML = `<span id="knada" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">NADA</span>
+    <span id="kdesah" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">DESAH</span>
+    <span id="ktimbre" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">TIMBRE</span>
+    <span id="kdentum" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">DENTUM</span>
+    <span id="kmembias" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">membias</span>
+    <span id="kdibiaskan" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">dipantulkan</span>`;
 }
 
 // window.onload = function awalMateri() {

@@ -77,7 +77,7 @@
 
 .bordU2 {
   border: 2px solid blue;
-  padding: 10px;
+  padding: 5px;
   border-radius: 10px 0px 10px 0px;
   margin-left: 5px;
 }
@@ -183,4 +183,13 @@
 .hil2,
 .kes1 {
   display: none;
+}
+span.benar {
+  min-width: 80px;
+  min-height: 20px;
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+  text-align: center;
+  display: inline-block;
 }

@@ -82,17 +82,28 @@
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
             <!-- Materi 2 -->
-            <li class="nav-item active">
+            <li class="nav-item ">
                 
                     
                     
-                <a href="jawabanS.html"><i class="fas fa-user-edit fa-2x"style="margin-left: 9px;"></i>
+                <a href="sidebar guru.html"><i class="fas fa-user-edit fa-2x"style="margin-left: 9px;"></i>
                     NILAI SISWA</a>
                 
         
           
         </li>
-           
+        <hr class="sidebar-divider my-0">
+        <!-- Materi 2 -->
+        <li class="nav-item active">
+            
+                
+                
+            <a href="kkm.html"><i class="fas fa-user-edit fa-2x"style="margin-left: 9px;"></i>
+                KONTROL</a>
+            
+    
+      
+    </li>    
         </nav>
 
         <!-- Page Content  -->
@@ -129,74 +140,77 @@
 
   
   <!-- KONTEN -->
-  
+ 
 
-  <div class="card-title-md" style="margin: 10px 10px;margin-bottom: 0;">
-    
-        <button type="button" class="btn btn-outline-dark" onclick="location.href='jawabanS.html'" style="font-weight: bold;width: 8%;"><i class="fas fa-mouse-pointer"></i>&nbsp;Kuis</button>
-        <button type="button" class="btn btn-dark" style="font-weight: bold;width: 8%;"><i class="fas fa-mouse-pointer"></i>&nbsp;Evaluasi</button>
-   
-</div>
-
-
-    <!-- <h4 class="font">EVALUASI</h4> -->
-<div class="card-body">
-    <div class="card-title-md">
-        <center> 
-            <label for="nama" style="display: none;">Evaluasi : 
-            <select id="kuis" name="kuis" class="mundur">
-                <option value="evaluasi/" selected="selected">EVALUASI</option>
-            </select>
-            </label>
-        <label for="nama">Kelas : 
-        <select id="kelas" name="kelas" class="mundur" aria-placeholder="-PILIH SEKOLAH-">
-            <option value="0" selected="selected">-- PILIH KELAS --</option>
-            <option value="1">IV A</option>
-            <option value="2">IV B</option>
-            <option value="3">IV C</option>
-         
-        </select>
-        </label>
-    <button type="button" class="cari btn btn-primary" onclick="readlah()"><i class="fas fa-search"></i>&nbsp;&nbsp;Cari</button>
-    <button type="button" class="cari btn btn-primary download"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</button>
-</div>
-<!-- <br> -->
-<table id='table_wrapper' class="table table-light">
-    <thead>
-        <tr>
-            <th class="ukr1" colspan="" rowspan="2">Nama</th>
-            <th class="ukr3" colspan="" rowspan="2">Skor</th>
-            <th class="ukr0" colspan="20">Jawaban</th>
-        </tr>
-        <tr>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
-            <th>4</th>
-            <th>5</th>
-            <th>6</th>
-            <th>7</th>
-            <th>8</th>
-            <th>9</th>
-            <th>10</th>
-            <th>11</th>
-            <th>12</th>
-            <th>13</th>
-            <th>14</th>
-            <th>15</th>
-            <th>16</th>
-            <th>17</th>
-            <th>18</th>
-            <th>19</th>
-            <th>20</th>
-        </tr>
-    </thead>
-    <tbody class="disini"></tbody>
-</table>
-
-        <center class="ha">
-    <div class=" clear"></div>
-        </div>
+    <div class="card-body">
+        <div class="card-title-md">
+            <center> 
+                <h2 class="mb-4"># KKM KUIS/EVALUASI </h2>
+                <center>
+               
+                  <table class="table" >
+                    <thead>
+                      <tr>
+                          <th scope="col" >Kuis/Evaluasi</th>
+                          <th scope="col">Ubah KKM</th>
+                          <th scope="col" >KKM saat ini</th>
+       
+                      </tr>
+                      </thead>
+                      <tr>
+                          <td ><b>Kuis 1</b> </td>
+                          <td>
+                              <input id="kkm1" type="text" name="kkm1" placeholder="KKM" >
+                              <button class="btn btn-success btn-sm"  type="button" onclick="km1()">Ubah</button>
+                          </td>
+                          <td > <a id="isi1" type="text" > </td>
+                      </tr>
+                      <tr>
+                          <td><b>Kuis 2</b></td>
+                          <td>
+                              <input id="kkm2" type="text" name="kkm2" placeholder="KKM" >
+                              <button class="btn btn-success btn-sm"  type="button" onclick="km2()">Ubah</button>
+                          </td>
+                          <td > <a id="isi2" type="text" style="pointer-events:none;"> </td>
+                      </tr>
+                      <tr>
+                          <td ><b>Kuis 3</b></td>
+                          <td>
+                            <input id="kkm3" type="text" name="kkm3" placeholder="KKM" >
+                            <button class="btn btn-success btn-sm"  type="button" onclick="km3()">Ubah</button>
+                          </td>
+                          <td > <a id="isi3" type="text" style="pointer-events:none;"> </td>
+                      </tr>
+                      <tr>
+                        <td ><b>Kuis 4</b></td>
+                        <td>
+                          <input id="kkm5" type="text" name="kkm3" placeholder="KKM" >
+                          <button class="btn btn-success btn-sm"  type="button" onclick="km5()">Ubah</button>
+                        </td>
+                        <td > <a id="isi5" type="text" style="pointer-events:none;"> </td>
+                    </tr>
+                     <tr>
+                        <td ><b>Kuis 5</b></td>
+                        <td>
+                          <input id="kkm6" type="text" name="kkm3" placeholder="KKM" >
+                          <button class="btn btn-success btn-sm"  type="button" onclick="km6()">Ubah</button>
+                        </td>
+                        <td > <a id="isi6" type="text" style="pointer-events:none;"> </td>
+                    </tr> 
+                      <tr>
+                          <td><b>Evaluasi</b></td>
+                          <td>
+                            <input id="kkm4" type="text" name="kkm4" placeholder="KKM" >
+                            <button class="btn btn-success btn-sm"  type="button" onclick="km4()">Ubah</button>
+                          </td>
+                          <td > <a id="isi4" type="text" style="pointer-events:none;"> </td>
+                      </tr>
+                      
+                  </table>
+                  <hr>
+                  </center></div>
+    </div></div>
+      
     
          
     <!-- jQuery CDN - Slim version (=without AJAX) -->
@@ -209,8 +223,8 @@
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
     <script src="/materi/javascript/js.js"></script>
-    <script src="/materi/javascript/latihan/jawaban.js"></script>
-  
+    <script src="/materi/javascript/kontrol.js"></script>
+   
 
 </body>
 

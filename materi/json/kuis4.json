@@ -1,94 +1,92 @@
 [{
     "soal0": {
-        "soal": "Ketika kita memegang tenggorokan pada saat berbicara, maka akan merasakan adanya getaran. Hal ini membuktikan bahwa. . .",
-        "a": "a. Otot tenggorokan selalu bergetar",
-        "b": "b. Sumber bunyi adalah tenggorokan",
-        "c": "c. Berbicara memerlukan energi",
-        "d": "d. Bunyi merambat melalui tenggrokan",
-        "benar": "d"        
+        "soal": "Alat musik suling menghasilkan bunyi dengan cara. . . .",
+        "a": "a. Ditiup",
+        "b": "b. Dipukul",
+        "c": "c. dipetik",
+        "d": "d. digesek",
+        "benar": "a"        
     }
 },{
     "soal1": {
-        "soal": "Bagian telinga manakah yang memiliki fungsi mengumpulkan suara dan menyalurkan ke dalam telinga melalui saluran telinga luar...",
+        "soal": "Berikut adalah alat musik yang menghasilkan bunyi . <br> 1) Suling <br> 2) Angklung <br> 3) Gitar <br> 4) Gendang <br> Alat musik mana yang menghasilkan bunyi dengan cara di pukul  . . .",
         
-        "a": "a. Telinga tengah",
-        "b": "b. lubang telinga",
-        "c": "c. Tulang pendengaran",
-        "d": "d. Daun telinga",
+        "a": "a. 1",
+        "b": "b. 2",
+        "c": "c. 3",
+        "d": "d. 4",
         "benar": "d"        
     }        
 },{
     "soal2": {
-        "soal": "telinga memiliki penengah antara telinga bagian luar dan bagian dalam yang di sebut. .",
-        "a": "a. Ruang siput",
-        "b": "b. Meleus",
-        "c": "c. Inklus",
-        "d": "d. Gendang telinga",
-        "benar": "d"
-    }
-},{
-    "soal3": {
-        "soal": "tulang-tulang pendengaran terdapat pada telinga bagian. . . .",
-        "a": "a. Telinga bagian tengah",
-        "b": "b. Daun telinga",
-        "c": "c. Saluran telinga",
-        "d": "d. Telinga bagian dalam",
+        "soal": "Di bawah ini alat yang dapat digunakan untuk meredam bunyi adalah. . .",
+        "a": "a. Karpet",
+        "b": "b. Lembaran alumunium",
+        "c": "c. Dinding tembok",
+        "d": "d. Lembaran kayu",
         "benar": "a"
     }
 },{
-   "soal4": {
-        "soal": "selaput tipis yang berfungsi untuk menerima getaran suara dari saluran bagian luar adalah. . ",
-        "a": "a. Inklus",
-        "b": "b. Membran pendengaran",
-        "c": "c. Meleus",
-        "d": "d. Membran tipani",
+    "soal3": {
+        "soal": "Di bawah ini pernyataan yang benar apabila bunyi tidak terdenga. . .",
+        "a": "a. Sumber bunyi bergerak",
+        "b": "b. Sebuah ruangan harus memiliki medium",
+        "c": "c. Harus ada penerima atau telinga mendengar",
+        "d": "d. Ruangan hampa",
         "benar": "d"
+    }
+},{
+   "soal4": {
+        "soal": "Alat musik yang berbunyi dengan cara di pukul adalah. . . ",
+        "a": "a. angklung",
+        "b": "b. gendang",
+        "c": "c. gitar",
+        "d": "d. suling",
+        "benar": "b"
     }
 },{    
     "soal5": {
-        "soal": "Telinga adalah alat indera manusia yang merupakan pemberian dari tuhan, Cara merawat telinga yang benar adalah . . . ",
-        "a": "a. Ketika mendengar suara yang keras tidak menutup telinga",
-        "b": "b. Memasukan benda keras ke dalam telinga",
-        "c": "c. Membersihkan telinga dengan pembersih telinga",
-        "d": "d. 24 jam memakai headset",
-        "benar": "c"
+        "soal": "Ketika kita melihat orang yang sedang menebang kayu pada jarak yang jauh, bunyi beradunya kapak terdengar beberapa saat setelah kapak mengenai pohon. Hal tersebut terjadi karena. . .",
+        "a": "a. Perambatan bunyi memerlukan waktu",
+        "b": "b. Kecepatan bunyi lebih kecil dari pada kecepatan udara",
+        "c": "c. Pengaruh gema yang terjadi",
+        "d": "d. Gangguan angin",
+        "benar": "a"
     }
 },{ 
     "soal6": {
-        "soal": "Perhatikan gambar di bawah ini soal 7-9 ! <br> <img src='/img/telinga.png'> <br> yang di tunjukan angka 1 adalah",
-        "a": "a. Rongga telinga",
-        "b": "b. Gendang telinga",
-        "c": "c. Ruang siput",
-        "d": "d. Stapes",
+        "soal": "Berikut adalah alat musik yang menghasilkan bunyi. <br> 1) Suling <br> 2) Lampu <br> 3) Angklung <br> 4) Gitar <br> Alat musik mana yang menghasilkan bunyi . . .",
+        "a": "a. 1-2-3",
+        "b": "b. 2-3-4",
+        "c": "c. 1-3-4",
+        "d": "d. 1-2-4",
         "benar": "c"
     }
 },{ 
     "soal7": {
-        "soal": "img src='/img/telinga.png'> <br>Pada gambar di atas pada angka 4 menunjukan. . . ",
-        "a": "a. Saluran eutasia",
-        "b": "b. Rongga telinga",
-        "c": "c. Ruang siput",
-        "d": "d. Stapes",
-        "benar": "a"
+        "soal": "Gitar menghasilkan suara dengan cara. . . ",
+        "a": "a. Ditiup",
+        "b": "b. Dipukul",
+        "c": "c. Dipetik",
+        "d": "d. Digesek",
+        "benar": "c"
     }
 },{ 
     "soal8": {        
-        "soal": "img src='/img/telinga.png'> <br> Pada gambar di atas pada angka 2 menunjukan. . .",
-        "a": "a. Telinga dalam",
-        "b": "b. Saluran setengah lingkaran",
-        "c": "c. Telinga tengah",
-        "d": "d. Telinga luar",
-        "benar": "a"
+        "soal": "Cara kita menghasilkan bunyi selain bersiul adalah. . .",
+        "a": "a. Berkrdip",
+        "b": "b. Bernapas",
+        "c": "c. Tepuk tangan",
+        "d": "d. Berjalan",
+        "benar": "c"
     }
- },{ 
-    "soal9": {        
-        "soal": "img src='/img/telinga.png'> <br> Pada gambar di atas pada angka 2 menunjukan. . .",
-        "a": "a. Telinga dalam",
-        "b": "b. Saluran setengah lingkaran",
-        "c": "c. Telinga tengah",
-        "d": "d. Telinga luar",
-        "benar": "a"
+},{
+    "soal9": {
+        "soal": "Angklung berasal dari daerah. . ",
+        "a": "a. Jawa timur",
+        "b": "b. Jawa barat",
+        "c": "c. Kalimantan selatan",
+        "d": "d. Kalimantan barat",
+        "benar": "b"
     }
-
- 
 }]

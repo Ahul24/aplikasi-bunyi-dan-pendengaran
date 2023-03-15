@@ -16,8 +16,8 @@ function drop(ev) {
   ev.target.appendChild(document.getElementById(data));
 }
 
-let btv = document.getElementById("btv");
-let stv = document.getElementById("stv");
+let btv = document.getElementById("bTV");
+let stv = document.getElementById("sTV");
 
 let bbel = document.getElementById("bbel");
 let sbel = document.getElementById("sbel");
@@ -43,7 +43,7 @@ let s3 = document.getElementById("s3");
 const benar = '<span style="color : green;">Benar</span>';
 const salah = '<span style="color : red;">Salah</span>';
 
-const cektv = document.querySelector(".cektv");
+const cektv = document.querySelector(".cekTV");
 
 function cekBTV() {
   stv.checked = false;

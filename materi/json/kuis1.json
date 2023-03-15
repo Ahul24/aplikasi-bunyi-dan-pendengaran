@@ -9,28 +9,25 @@
     }
 },{
     "soal1": {
-    
         "soal": "Bunyi dengan frekuensi 20 sampai 20000 Hz disebut . . .",
         "a": "a. Infrasonik",
         "b": "b. Ultrasonik",
         "c": "c. Audiosonik",
         "d": "d. Supersonic",
-        "benar": "c" 
+        "benar": "c"        
     }        
 },{
     "soal2": {
- 
-        "soal": "Manusia dapat mendengar suara yang memiliki frekuensi sebesar . . .",
-        "a": "a. kurang dari 20 Hz",
+        "soal": "Manusia dapat mendengar suara yang memiliki frekuensi sebesar . . ",
+        "a": "a. Kurang dari 20 Hz ",
         "b": "b. Antara 20 sampai 20000 Hz",
-        "c": "c. Lebih dari 20000 Hz",
+        "c": "c. Lebih dari 20000 Hz ",
         "d": "d. Antara 20 sampai 2000 Hz",
         "benar": "b"
     }
 },{
     "soal3": {
-   
-        "soal": "Bunyi dapat merambat ke segala arah melalui  kecuali ….",
+        "soal": "Bunyi dapat merambat ke segala arah melalui  kecuali …",
         "a": "a. Zat gas",
         "b": "b. Zat padat",
         "c": "c. Zat cair",
@@ -39,8 +36,7 @@
     }
 },{
    "soal4": {
-       
-        "soal": "Bunyi infrasonik adalah bunyi yang memiliki getaran . . .",
+        "soal": "Bunyi infrasonik adalah bunyi yang memiliki getaran . . ",
         "a": "a. Kuat",
         "b": "b. Lemah",
         "c": "c. Tinggi",
@@ -49,17 +45,15 @@
     }
 },{    
     "soal5": {
-      
-        "soal": "Bunyi dapat menyebar ke segala arah karena bunyi merambat melalui . . .",
+        "soal": "Bunyi dapat menyebar ke segala arah karena bunyi merambat melalui . . ",
         "a": "a. Zat gas",
-        "b": "b. Zat Padat",
-        "c": "c. Zat Cair",
+        "b": "b. Zat padat",
+        "c": "c. Zat cair",
         "d": "d. Semua benar",
         "benar": "d"
     }
 },{ 
     "soal6": {
-     
         "soal": "Gelombang bunyi tergolong gelombang . . . .",
         "a": "a. Gelombang stasioner ",
         "b": "b. Gelombang gabungan",
@@ -69,17 +63,16 @@
     }
 },{ 
     "soal7": {
-     
         "soal": "Warna bunyi yang di hasilkan oleh sumber sumber ditentukan oleh. . . ",
         "a": "a. Frekuensi ",
         "b": "b. Tinggi nada ",
         "c": "c. Jenis sumber bunyi ",
-        "d": "d. Bentuk gelombang",
+        "d": "d. Rendah",
         "benar": "a"
     }
 },{ 
     "soal8": {        
-        "soal": "Bunyi akan terdengar keras, jika . . . ",
+        "soal": "Bunyi akan terdengar keras, jika .  ",
         "a": "a. Amplitudonya besar",
         "b": "b. Amplitudonya kecil",
         "c": "c. Frekuensi rendah",
@@ -88,12 +81,11 @@
     }
 },{
     "soal9": {
-      
-        "soal": "Seorang astronot menggunakan gelombang radio untuk berkomunikasi di bulan. Hal ini membuat astronot tidak bisa berkomunikasi secara langsung karena.",
-        "a": "a. Bulan gelap ",
+        "soal": "Seorang astronot menggunakan gelombang radio untuk berkomunikasi di bulan. Hal ini membuat astronot tidak bisa berkomunikasi secara langsung karena...",
+        "a": "a. Bulan gelap",
         "b": "b. Bulan merupakan tempat sunyi",
-        "c": "c. Bulan tidak memiliki udara / hampa udara ",
-        "d": "d. Bulan tidak ada sinyal HP",
-        "benar": "c" 
+        "c": "c. bulan tidak memiliki udara/hampa udara",
+        "d": "d. bulan tidak ada sinyal HP ",
+        "benar": "c"
     }
 }]

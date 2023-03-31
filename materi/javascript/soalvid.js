@@ -11,22 +11,6 @@ $(document).ready(function () {
   // }
 });
 
-$(document).ready(function () {
-  $(".kolom1").hide();
-  $(".kolom2").hide();
-
-  document
-    .getElementById("videoo1")
-    .addEventListener("ended", myHandler, false);
-
-  function myHandler(e) {
-    $(".kolom1").show();
-    $(".end").hide(100);
-    $(".kolom2").show(1000);
-    $(".none").show(2000);
-  }
-});
-
 //halaman 1
 function sal() {
   document.getElementById("a1").style.display = "none";

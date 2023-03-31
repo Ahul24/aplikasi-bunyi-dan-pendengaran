@@ -1,3 +1,9 @@
+const video = document.querySelector("video");
+
+video.onended = function () {
+  document.getElementById("latihanhide").hidden = false;
+};
+
 function allowDrop(ev) {
   ev.preventDefault();
 }
@@ -18,14 +24,14 @@ let ssetrika = document.getElementById("ssetrika");
 let bkipas = document.getElementById("bkipas");
 let skipas = document.getElementById("skipas");
 
-let bneon = document.getElementById("bneon");
-let sneon = document.getElementById("sneon");
+let bsuling = document.getElementById("bsuling");
+let ssuling = document.getElementById("ssuling");
 
-let bpijar = document.getElementById("bpijar");
-let spijar = document.getElementById("spijar");
+let bgitar = document.getElementById("bgitar");
+let sgitar = document.getElementById("sgitar");
 
-let bsolder = document.getElementById("bsolder");
-let ssolder = document.getElementById("ssolder");
+let bbass = document.getElementById("bbass");
+let sbass = document.getElementById("sbass");
 
 let bpemanas = document.getElementById("bpemanas");
 let spemanas = document.getElementById("spemanas");
@@ -40,9 +46,9 @@ let tarik = document.getElementById("tarik");
 
 function cekKel() {
   if (
-    tarik.innerText == "sulinggitarbass" ||
-    tarik.innerText == "bassgitarsuling" ||
-    tarik.innerText == "gitarbasssuling"
+    tarik.innerText == "SulingGitarPerkusi" ||
+    tarik.innerText == "PerkusiGitarSuling" ||
+    tarik.innerText == "GitarPerkusiSuling"
   ) {
     const jawabKel = document.getElementById("jawabKel");
     jawabKel.innerHTML = `<div class="pembahasan mt-3 mr-3 p-3" style="background-color:blue;color:white;">

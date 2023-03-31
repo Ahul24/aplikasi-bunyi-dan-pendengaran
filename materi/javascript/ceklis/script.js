@@ -1,3 +1,9 @@
+const video = document.querySelector("video");
+
+video.onended = function () {
+  document.getElementById("latihanhide").hidden = false;
+};
+
 $(function () {
   $('[data-toggle="popover"]').popover("show");
 });
@@ -31,14 +37,14 @@ let sHP = document.getElementById("sHP");
 let bsenter = document.getElementById("bsenter");
 let ssenter = document.getElementById("ssenter");
 
-let b1 = document.getElementById("b1");
-let s1 = document.getElementById("s1");
+let bsatu = document.getElementById("bsatu");
+let ssatu = document.getElementById("ssatu");
 
-let b2 = document.getElementById("b2");
-let s2 = document.getElementById("s2");
+let bdua = document.getElementById("bdua");
+let sdua = document.getElementById("sdua");
 
-let b3 = document.getElementById("b3");
-let s3 = document.getElementById("s3");
+let btiga = document.getElementById("btiga");
+let stiga = document.getElementById("stiga");
 
 const benar = '<span style="color : green;">Benar</span>';
 const salah = '<span style="color : red;">Salah</span>';
@@ -113,47 +119,47 @@ function cekSsenter() {
   bsenter.disabled = true;
   ceksenter.innerHTML = salah;
 }
-const cek1 = document.querySelector(".cek1");
+const ceksatu = document.querySelector(".ceksatu");
 
-function cekB1() {
-  s1.checked = false;
-  b1.disabled = true;
-  s1.disabled = true;
-  cek1.innerHTML = benar;
+function cekBsatu() {
+  ssatu.checked = false;
+  bsatu.disabled = true;
+  ssatu.disabled = true;
+  ceksatu.innerHTML = benar;
 }
-function cekS1() {
-  b1.checked = false;
-  s1.disabled = true;
-  b1.disabled = true;
-  cek1.innerHTML = salah;
+function cekSsatu() {
+  bsatu.checked = false;
+  ssatu.disabled = true;
+  bsatu.disabled = true;
+  ceksatu.innerHTML = salah;
 }
-const cek2 = document.querySelector(".cek2");
+const cekdua = document.querySelector(".cekdua");
 
-function cekB2() {
-  s2.checked = false;
-  b2.disabled = true;
-  s2.disabled = true;
-  cek2.innerHTML = benar;
+function cekBdua() {
+  sdua.checked = false;
+  bdua.disabled = true;
+  sdua.disabled = true;
+  cekdua.innerHTML = benar;
 }
-function cekS2() {
-  b2.checked = false;
-  s2.disabled = true;
-  b2.disabled = true;
-  cek2.innerHTML = salah;
+function cekSdua() {
+  bdua.checked = false;
+  sdua.disabled = true;
+  bdua.disabled = true;
+  cekdua.innerHTML = salah;
 }
-const cek3 = document.querySelector(".cek3");
+const cektiga = document.querySelector(".cektiga");
 
-function cekB3() {
-  s3.checked = false;
-  b3.disabled = true;
-  s3.disabled = true;
-  cek3.innerHTML = benar;
+function cekBtiga() {
+  stiga.checked = false;
+  btiga.disabled = true;
+  stiga.disabled = true;
+  cektiga.innerHTML = benar;
 }
-function cekS3() {
-  b3.checked = false;
-  s3.disabled = true;
-  b3.disabled = true;
-  cek3.innerHTML = salah;
+function cekStiga() {
+  btiga.checked = false;
+  stiga.disabled = true;
+  btiga.disabled = true;
+  cektiga.innerHTML = salah;
 }
 function repeat1() {
   btv.disabled = false;
@@ -185,43 +191,21 @@ function repeat1() {
   ceksenter.innerHTML = " ";
 }
 function repeat2() {
-  b1.disabled = false;
-  s1.disabled = false;
-  b2.disabled = false;
-  s2.disabled = false;
-  b3.disabled = false;
-  s3.disabled = false;
-  b1.checked = false;
-  s1.checked = false;
-  b2.checked = false;
-  s2.checked = false;
-  b3.checked = false;
-  s3.checked = false;
+  bsatu.disabled = false;
+  ssatu.disabled = false;
+  bdua.disabled = false;
+  sdua.disabled = false;
+  btiga.disabled = false;
+  stiga.disabled = false;
 
-  cek1.innerHTML = " ";
-  cek2.innerHTML = " ";
-  cek3.innerHTML = " ";
+  bsatu.checked = false;
+  ssatu.checked = false;
+  bdua.checked = false;
+  sdua.checked = false;
+  btiga.checked = false;
+  stiga.checked = false;
+
+  ceksatu.innerHTML = " ";
+  cekdua.innerHTML = " ";
+  cektiga.innerHTML = " ";
 }
-
-let mouse = 0;
-
-var t = setInterval(tes, 1000);
-function mouseTes() {
-  t = setInterval(tes, 1000);
-}
-function tes() {
-  if (mouse < 300000) {
-    mouse += 1000;
-  } else {
-    clearInterval(t);
-    $("#mouseModal").modal("show");
-  }
-}
-
-document.addEventListener("mouseout", async function (e) {
-  if (!e) {
-    console.log("Bergerak");
-  } else {
-    mouse = 0;
-  }
-});

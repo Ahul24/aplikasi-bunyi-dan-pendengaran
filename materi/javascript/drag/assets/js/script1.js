@@ -39,8 +39,8 @@ let spemanas = document.getElementById("spemanas");
 // $(function(){
 //     setInterval(cek, 1000);
 // });
-const benar = '<span style="color : white;">Benar</span>';
-const salah = '<span style="color : white;">Salah</span>';
+const benar = '<span style="color : white;">BENAR</span>';
+const salah = '<span style="color : white;">SALAH</span>';
 
 let tarik = document.getElementById("tarik");
 
@@ -51,12 +51,12 @@ function cekKel() {
     tarik.innerText == "GitarPerkusiSuling"
   ) {
     const jawabKel = document.getElementById("jawabKel");
-    jawabKel.innerHTML = `<div class="pembahasan mt-3 mr-3 p-3" style="background-color:blue;color:white;">
+    jawabKel.innerHTML = `<div class="pembahasan mt-3 mr-3 p-3"style="background-color:green;color:white;">
                           Jawaban Anda ${benar}<br>
                           <div class="pembahasan2">
                           <u>Pembahasan :</u>
                           </div>
-                          Dari video tersebut kita dapat mengetahui bahwa : Lampu neon dan lampu pijar merupakan contoh dari perubahan energi listrik menjadi energi cahaya
+                          Dari video tersebut kita dapat mengetahui bahwa : Gitar, Suling dan Perkusi merupakan contoh dari perubahan alat musik menjadi suara atau bunyi
                           </div>`;
   } else {
     const jawabKel = document.getElementById("jawabKel");

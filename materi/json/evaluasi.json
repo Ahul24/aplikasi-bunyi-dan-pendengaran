@@ -110,30 +110,30 @@
                }
     },{ 
        "soal12": {        
-                       "soal": "img src='/img/telinga.png'> <br> Ruang siput di tunjukan pada angka. . .",
-                       "a": "a. 1",
-                       "b": "b. 2",
-                       "c": "c. 3",
-                       "d": "d. 4",
-                       "benar": "a"
+        "soal": "img src='/img/telinga.png'> <br> Ruang siput di tunjukan pada angka. . .",
+                "a": "a. 1",
+                "b": "b. 2",
+                "c": "c. 3",
+                "d": "d. 4",
+                "benar": "a"
                    }
     },{ 
         "soal13": {        
-                           "soal": "Bunyi yang dapat di hasilkan dari alat music di bawah ini dengan cara <br> img src='/img/angklung.png'> <br> . . .",
-                           "a": "a. Ditiup",
-                           "b": "b. Di goyang",
-                           "c": "c. Di petik",
-                           "d": "d. Di pukul",
-                           "benar": "b"
+        "soal": "Bunyi yang dapat di hasilkan dari alat music di bawah ini dengan cara <br> img src='/img/angklung.png'> <br> . . .",
+                "a": "a. Ditiup",
+                "b": "b. Di goyang",
+                "c": "c. Di petik",
+                "d": "d. Di pukul",
+                "benar": "b"
                        }
     },{ 
         "soal14": {        
-                               "soal": "Bunyi pantul yang di dengar setelah bunyi asli selesai adalah. . .",
-                               "a": "a. Gema",
-                               "b": "b. Gaung",
-                               "c": "c. Pantulan",
-                               "d": "d. Bunyi asli",
-                               "benar": "a"
+         "soal": "Bunyi pantul yang di dengar setelah bunyi asli selesai adalah. . .",
+                "a": "a. Gema",
+                "b": "b. Gaung",
+                "c": "c. Pantulan",
+                "d": "d. Bunyi asli",
+                "benar": "a"
                            }
     },{ 
        "soal15": {        
@@ -146,24 +146,24 @@
                 }
     
    },{ 
-        "soal16": {        
-                                           "soal": "satuan yang menyatakan banyak getaran setiap detik adalah. . .",
-                                           "a": "a. meter",
-                                           "b": "b. Volt",
-                                           "c": "c. Amper",
-                                           "d": "d. Hz",
-                                           "benar": "d"
-                                       }
+    "soal16": {        
+        "soal": "satuan yang menyatakan banyak getaran setiap detik adalah. . .",
+                "a": "a. meter",
+                "b": "b. Volt",
+                "c": "c. Amper",
+                "d": "d. Hz",
+                "benar": "d"
+              }
     },{ 
-                                           "soal17": {        
-                                               "soal": "Tempat di bawah ini yang sering terjadi gaung adalah. . .",
-                                               "a": "a. Bioskop",
-                                               "b": "b. Lapangan",
-                                               "c": "c. Gua",
-                                               "d": "d. Studio",
-                                               "benar": "c"
-                                           }
-                                           },{
+    "soal17": {        
+        "soal": "Tempat di bawah ini yang sering terjadi gaung adalah. . .",
+                "a": "a. Bioskop",
+                "b": "b. Lapangan",
+                "c": "c. Gua",
+                "d": "d. Studio",
+                "benar": "c"
+             }
+     },{
        "soal18": {
            "soal": "Di bawah ini contoh sumber bunyi yang BENAR adalah. .  ",
            "a": "a. Lonceng dan kertas",
@@ -174,11 +174,11 @@
        } 
        },{ 
         "soal19": {        
-                                       "soal": "Medium paling burung untuk rambat bunyi adalah . . .",
-                                       "a": "a. Gas",
-                                       "b": "b. Ruang hampa",
-                                       "c": "c. Padat",
-                                       "d": "d. Cair",
-                                       "benar": "b"
+        "soal": "Medium paling burung untuk rambat bunyi adalah . . .",
+            "a": "a. Gas",
+            "b": "b. Ruang hampa",
+            "c": "c. Padat",
+            "d": "d. Cair",
+            "benar": "b"
                                    }   
 }]

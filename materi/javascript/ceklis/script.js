@@ -1,9 +1,18 @@
-const video = document.querySelector("video");
-
-video.onended = function () {
-  document.getElementById("latihanhide").hidden = false;
-};
-
+function setCurTime(X) {
+  if (X == 1) {
+    video.currentTime = 5;
+  } else if (X == 2) {
+    video.currentTime = 12;
+  } else if (X == 3) {
+    video.currentTime = 29;
+  } else if (X == 4) {
+    video.currentTime = 45;
+  } else if (X == 5) {
+    video.currentTime = 65;
+  } else if (X == 6) {
+    video.currentTime = 121;
+  }
+}
 $(function () {
   $('[data-toggle="popover"]').popover("show");
 });

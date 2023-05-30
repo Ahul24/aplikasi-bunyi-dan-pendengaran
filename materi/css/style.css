@@ -44,7 +44,28 @@ a:focus {
   border-bottom: 1px dashed #ddd;
   margin: 40px 0;
 }
+/* ---------------------------------------------------
+    Video
+----------------------------------------------------- */
 
+.controls_vid_button {
+  margin-left: 5px;
+  float: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 2px dotted #fff;
+  background-color: #1a2a42;
+  font-size: 14px;
+  color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+}
+.controls_vid_button:hover {
+  cursor: pointer;
+  border: 2px dotted #000;
+  background-color: #d48166;
+  color: #000;
+}
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */

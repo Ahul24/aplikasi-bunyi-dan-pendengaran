@@ -1,9 +1,3 @@
-const video = document.querySelector("video");
-
-video.onended = function () {
-  document.getElementById("latihanhide").hidden = false;
-};
-
 function allowDrop(ev) {
   ev.preventDefault();
 }

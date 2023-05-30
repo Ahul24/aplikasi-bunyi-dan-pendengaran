@@ -255,6 +255,12 @@
    <video width="70%" height="auto"controls>
     <source src="../video/materi5.mp4" type="video/mp4">
    </video> </center>
+   <center> <div class="d-grid gap-2 d-md-block">
+    <button class="controls_vid_button" onclick="setCurTime(1)" type="button">Pendahuluan</button>
+    <button class="controls_vid_button" onclick="setCurTime(2)" type="button">Perawatan telinga menggunakan katembat</button>
+  
+
+  </div></center>
    <div id="latihanhide" hidden>
     <div class="mt-5 bordU2 " > 
         <div class="petunjuk" style="width: 99%; background-color: aliceblue;">
@@ -410,6 +416,29 @@
    <script src="javascript/ceklis/script.js"></script>
    <script src="javascript/js.js"></script>
    <script src="javascript/soalvid.js"></script>
+   <script>
+    const video = document.querySelector("video");
+
+video.onended = function () {
+  document.getElementById("latihanhide").hidden = false;
+};
+    function setCurTime(X) {
+  if (X == 1) {
+    video.currentTime = 0;
+  } else if (X == 2) {
+    video.currentTime = 59;
+  } else if (X == 3) {
+    video.currentTime = 0;
+  } else if (X == 4) {
+    video.currentTime = 0;
+  } else if (X == 5) {
+    video.currentTime = 0;
+  } else if (X == 6) {
+    video.currentTime = 0;
+  }
+}
+
+</script>
 </body>
 
 

@@ -83,7 +83,7 @@ signinButton.addEventListener("click", (e) => {
         .then(() => {
           // Data saved successfully!
           //   alert("user telah sukses login");
-          location.href = "/materi/halaman guru/jawabanS.html";
+          location.href = "/materi/halaman guru/sidebar guru.html";
         })
         .catch((error) => {
           //the write failed

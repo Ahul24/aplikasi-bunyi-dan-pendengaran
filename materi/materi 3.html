@@ -159,7 +159,7 @@
                     </div>
                 </li> <hr class="sidebar-divider my-0">
                 <li>
-                    <a href="../materi/materi 1.html"><i class="fas fa-map-signs fa-2x mr-2"></i>Evaluasi</a>
+                    <a href="./latihan/evaluasi.html"><i class="fas fa-map-signs fa-2x mr-2"></i>Evaluasi</a>
                 </li>
             </nav>
     
@@ -255,12 +255,12 @@
     </div>
         <center><br>
    <video width="70%" height="auto"controls>
-    <source src="../video/10detik.mp4" type="video/mp4">
+    <source src="../video/materi3.mp4" type="video/mp4">
    </video> </center>
-   <div class="d-grid gap-2 d-md-block">
-    <button class="controls_vid_button" onclick="setCurTime(1)" type="button">Pendahuluan</button>
-    <button class="controls_vid_button" onclick="setCurTime(2)" type="button">Percobaan 1</button>
-    <button class="controls_vid_button" onclick="setCurTime(3)" type="button">Percobaan 2</button>
+   <center><div class="d-grid gap-2 d-md-block">
+    <button class="controls_vid_button" onclick="setCurTime(1)" type="button">alat pendeteksi keretakan pada logam</button>
+    <button class="controls_vid_button" onclick="setCurTime(2)" type="button">USG</button>
+    <button class="controls_vid_button" onclick="setCurTime(3)" type="button">alat mengukur Kedalaman laut</button>
     <button class="controls_vid_button" onclick="setCurTime(4)" type="button">selesai</button>
 
   </div></center> 
@@ -420,7 +420,29 @@
 <script src="javascript/drag/assets/js/script copy.js"></script>
 <script src="javascript/js.js"></script>
 
+<script>
+    const video = document.querySelector("video");
 
+video.onended = function () {
+  document.getElementById("latihanhide").hidden = false;
+};
+    function setCurTime(X) {
+  if (X == 1) {
+    video.currentTime = 0;
+  } else if (X == 2) {
+    video.currentTime = 47;
+  } else if (X == 3) {
+    video.currentTime = 71;
+  } else if (X == 4) {
+    video.currentTime = 193;
+  } else if (X == 5) {
+    video.currentTime = 0;
+  } else if (X == 6) {
+    video.currentTime = 0;
+  }
+}
+
+</script>
 
 </body>
 

@@ -91,7 +91,7 @@
     }
     },{ 
         "soal10": {        
-               "soal": "img src='/img/telinga.png'> <br> Yang menunjukan gambar gendang telinga terdapat pada angka. . .",
+               "soal": "<img src='/img/telinga.png' style='width:30%'> <br> Yang menunjukan gambar gendang telinga terdapat pada angka. . .",
                "a": "a. 8",
                "b": "b. 9",
                "c": "c. 7",
@@ -101,7 +101,7 @@
    
     },{ 
        "soal11": {        
-                   "soal": "img src='/img/telinga.png'> <br> Saluran telinga luar terdapat  pada angka. . .",
+                   "soal": "<img src='/img/telinga.png' style='width:30%'> <br> Saluran telinga luar terdapat  pada angka. . .",
                    "a": "a. 8",
                    "b": "b. 9",
                    "c": "c. 7",
@@ -110,7 +110,7 @@
                }
     },{ 
        "soal12": {        
-        "soal": "img src='/img/telinga.png'> <br> Ruang siput di tunjukan pada angka. . .",
+        "soal": "<img src='/img/telinga.png' style='width:30%'> <br> Ruang siput di tunjukan pada angka. . .",
                 "a": "a. 1",
                 "b": "b. 2",
                 "c": "c. 3",

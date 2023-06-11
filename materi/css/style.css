@@ -110,14 +110,14 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-  color: #7386d5;
+  color: rgb(0 123 255);
   background: #fff;
 }
 
 #sidebar ul li.active > a,
 a[aria-expanded="true"] {
   color: #fff;
-  background: #6d7fcc;
+  background: rgb(0 123 255);
 }
 
 a[data-toggle="collapse"] {

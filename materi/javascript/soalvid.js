@@ -48,36 +48,6 @@ function ben3() {
 var vid = document.getElementById("videoo");
 var val = document.getElementById("speed");
 
-function alat() {
-  vid.currentTime = 6.5;
-  vid.play();
-}
-
-function coba1() {
-  vid.currentTime = 18;
-  vid.play();
-}
-
-function coba2() {
-  vid.currentTime = 51.2;
-  vid.play();
-}
-
-function coba3() {
-  vid.currentTime = 80.7;
-  vid.play();
-}
-
-function videonya() {
-  if (val.value == "1") {
-    vid.playbackRate = 1;
-  } else if (val.value == "2") {
-    vid.playbackRate = 0.5;
-  } else if (val.value == "3") {
-    vid.playbackRate = 2.5;
-  }
-}
-
 // function slow() {
 //     vid.playbackRate = 0.5;
 // }

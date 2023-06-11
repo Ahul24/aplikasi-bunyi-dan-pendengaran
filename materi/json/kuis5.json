@@ -55,7 +55,7 @@
     }
 },{ 
     "soal6": {
-        "soal": "Perhatikan gambar di bawah ini soal 7-9 ! <br> <img src='/img/telinga.png'> <br> yang di tunjukan angka 1 adalah",
+        "soal": "Perhatikan gambar di bawah ini <br> <img src='/img/telinga.png' style='width:30%'> <br> yang di tunjukan angka 1 adalah",
         "a": "a. Rongga telinga",
         "b": "b. Gendang telinga",
         "c": "c. Ruang siput",
@@ -64,7 +64,7 @@
     }
 },{ 
     "soal7": {
-        "soal": "img src='/img/telinga.png'> <br>Pada gambar di atas pada angka 4 menunjukan. . . ",
+        "soal": "<img src='/img/telinga.png' style='width:30%'> <br>Pada gambar di atas pada angka 4 menunjukan. . . ",
         "a": "a. Saluran eutasia",
         "b": "b. Rongga telinga",
         "c": "c. Ruang siput",
@@ -73,7 +73,7 @@
     }
 },{ 
     "soal8": {        
-        "soal": "img src='/img/telinga.png'> <br> Pada gambar di atas pada angka 2 menunjukan. . .",
+        "soal": "<img src='/img/telinga.png' style='width:30%'> <br> Pada gambar di atas pada angka 2 menunjukan. . .",
         "a": "a. Telinga dalam",
         "b": "b. Saluran setengah lingkaran",
         "c": "c. Telinga tengah",

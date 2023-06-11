@@ -10,6 +10,22 @@ var firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
+const db = firebase.database();
+const dbkkm = db.ref("kkm/").on("value", kkmSuccess, handleError);
+
+let loop1;
+let kkm1 = 0;
+
+function kkmSuccess(items1) {
+  kkm1 = items1.val()[0]["kkm"];
+  console.log(kkm1);
+  var kkm1html = document.querySelector(".kkm1");
+  kkm1html.innerHTML = kkm1;
+}
+
+function handleError(error) {
+  console.log(error);
+}
 
 let wktu = document.querySelector(".waktu");
 let nilaiwktu = 0;
@@ -88,12 +104,12 @@ selanjutnya.addEventListener("click", function () {
     // waktu
     countDownDate = new Date().getTime();
     //waktu 30 menit
-    countDownDate += 1801000;
+    // countDownDate += 1801000;
     //waktu 45 menit
     // countDownDate += 2700000;
     // countDownDate += 12000;
     //15 detik
-    // countDownDate += 17000;
+    countDownDate += 17000;
     var x = setInterval(function () {
       var now = new Date().getTime();
       var distance = countDownDate - now;
@@ -482,7 +498,7 @@ dat.onreadystatechange = function () {
         let datanya = document.querySelector(".dataaa");
         datanya.className = datanya.className.replace("hilang", "");
 
-        if (hasilakhir >= 72) {
+        if (hasilakhir > kkm1) {
           let next = document.getElementById("next");
           next.className = next.className.replace("hilang", "");
         } else {
@@ -596,7 +612,7 @@ dat.onreadystatechange = function () {
         let datanya = document.querySelector(".dataaa");
         datanya.className = datanya.className.replace("hilang", "");
 
-        if (hasilakhir >= 72) {
+        if (hasilakhir >= kkm1) {
           let next = document.getElementById("next");
           next.className = next.className.replace("hilang", "");
         } else {

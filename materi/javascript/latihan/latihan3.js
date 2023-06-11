@@ -10,7 +10,21 @@ var firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
+const db = firebase.database();
+const dbkkm = db.ref("kkm/").on("value", kkmSuccess, handleError);
+let loop1;
+let kkm3 = 2;
 
+function kkmSuccess(items1) {
+  kkm3 = items1.val()[2]["kkm"];
+  console.log(kkm3);
+  var kkm3html = document.querySelector(".kkm3");
+  kkm3html.innerHTML = kkm3;
+}
+
+function handleError(error) {
+  console.log(error);
+}
 let wktu = document.querySelector(".waktu");
 let nilaiwktu = 0;
 
@@ -482,7 +496,7 @@ dat.onreadystatechange = function () {
         let datanya = document.querySelector(".dataaa");
         datanya.className = datanya.className.replace("hilang", "");
 
-        if (hasilakhir >= 72) {
+        if (hasilakhir > kkm3) {
           let next = document.getElementById("next");
           next.className = next.className.replace("hilang", "");
         } else {
@@ -596,7 +610,7 @@ dat.onreadystatechange = function () {
         let datanya = document.querySelector(".dataaa");
         datanya.className = datanya.className.replace("hilang", "");
 
-        if (hasilakhir >= 72) {
+        if (hasilakhir >= kkm3) {
           let next = document.getElementById("next");
           next.className = next.className.replace("hilang", "");
         } else {

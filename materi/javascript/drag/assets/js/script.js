@@ -86,8 +86,8 @@ function repeatt2() {
   pilihan1.innerHTML = `<span id="kzatpadat" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">zat padat</span>
     <span id="kzatcair" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">zat cair</span>
     <span id="kzatgas" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">zat gas</span>
-    <span id="kcerminan" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">cerminan</span>
-    <span id="kmembias" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">membias</span>
+    <span id="kcerminan" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">di bakar</span>
+    <span id="kmembias" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">di siram</span>
     <span id="kdibiaskan" class="badge bg-primary m-1 bahan" draggable="true" ondragstart="drag(event)">dipantulkan</span>`;
 }
 let a1 = document.getElementById("a1");

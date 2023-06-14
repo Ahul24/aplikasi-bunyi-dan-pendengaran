@@ -62,7 +62,7 @@ function mencari() {
       if (cek11 == 0) {
         let ssps = document.querySelector(".center");
         ssps.innerHTML += "";
-        ssps.innerHTML += `<button type="button" class="btn btn-danger deleted"><i class="fas fa-user-minus"></i>&nbsp;&nbsp;Hapus Semua Data</button>`;
+        // ssps.innerHTML += `<button type="button" class="btn btn-danger deleted"><i class="fas fa-user-minus"></i>&nbsp;&nbsp;Hapus Semua Data</button>`;
         cek11 += 1;
 
         let klikkkk = document.querySelector(".deleted");

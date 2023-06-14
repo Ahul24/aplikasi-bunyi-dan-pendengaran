@@ -187,16 +187,16 @@
                 </div>
             </nav>
  <!-- Content here -->
-            <div class="text-center text-white rounded  " style="height: 80px; background-color: #07575b; "> <br> <h1>PEMBAHASAN</h1></div>
+ <div class="text-center text-white rounded  " style="height: 80px; background-color: #07575b; "> <br> <h1>PEMBAHASAN</h1></div>
           
-            <br/>
-            <nav>
-                <div class="nav nav-pills nav-fill   justify-content-center " id="nav-tab" style="height: 35px; background-color: #07575b; margin-top: -15px;">
-                    <a class="nav-item nav-link active text-white" id="nav-home-tab" data-toggle="tab" href="#home" role="tab"><strong><i class="fas fa-book"></i>&emsp;MATERI</strong></a>
-                    <a class="nav-item nav-link text-white" id="nav-profil-tab" data-toggle="tab" href="#menu1" role="tab"><strong><i class="fas fa-video"></i>&emsp;VIDEO</strong></a>
-                    <a class="nav-item nav-link text-white" id="nav-kontak-tab" data-toggle="tab" href="#menu2" role="tab"><strong><i class="fas fa-hand-point-right"></i>&emsp;MARI MENCOBA</strong></a>
-                </div>
-        </nav>
+        
+ <nav class="mt-1">
+     <div class="nav nav-pills nav-fill   justify-content-center " id="nav-tab" style="height: 20%; background-color: #07575b;">
+         <a class="nav-item nav-link active text-white" id="nav-home-tab" data-toggle="tab" href="#home" role="tab"><strong><i class="fas fa-book"></i>&emsp;MATERI</strong></a>
+         <a class="nav-item nav-link text-white" id="nav-profil-tab" data-toggle="tab" href="#menu1" role="tab"><strong><i class="fas fa-video"></i>&emsp;VIDEO</strong></a>
+         <a class="nav-item nav-link text-white" id="nav-kontak-tab" data-toggle="tab" href="#menu2" role="tab"><strong><i class="fas fa-hand-point-right"></i>&emsp;MARI LATIHAN</strong></a>
+     </div>
+</nav>
     
             <div class="flex-row overflow-auto  text-justify w-90 p-3 mr-4 ml-4 p-5" style="  height: 500px; background-color: rgb(198, 193, 185); overflow: auto">
                
@@ -207,17 +207,19 @@
   <!-- Tab panes -->
   <div class="tab-content" id="nav-tabContent">
     <div class="tab-pane active " id="home"> 
-        <div class="container ">
-            <center> <button type="button" class="btn text-white " style="background-color: #07575b;" data-toggle="collapse" data-target="#demo"><img src="../img/lihat.png" height="50px" width="50px" >Tujuan Pembelajaran</button></center>
-            <div id="demo" class="collapse  border-4 bg-white p-4 " style="border-style: dotted;">
-                 <b>Setelah mempelajari topic ini yang di harapkan </b>
-                 <br>
-                 <p>- Siswa bisa dan dapat menyimpulkan syarat terjadinya bunyi</p>
+        <div class="container-fluid ">
+            <center> <button type="button" class="btn text-white" style="background-color: #07575b;" data-toggle="collapse" data-target="#demo"><img src="../img/lihat.png" height="50px" width="50px" >Tujuan Pembelajaran</button></center>
+            <div id="demo" class="collapse show  border-4  " style="border-style: dotted; font-weight: bold ">
+             <p>Setelah mempelajari topic ini yang di harapkan </p>
+               
+                 <p>- Siswa bisa dan dapat menyimpulkan syarat terjadinya bunyi suling</p>
                  
              </div>
            </div>
            <hr>
-        <h2>Suling</h2> 
+           <h2 class="border border-primary text-white" style="margin-right:80% ;background: #07575b;">&nbsp; <img src="../img/icon buku.png" height="50px" width="50px"> Suling</h2>
+         
+         
         <p>
            <p>
             &emsp; &emsp;
@@ -279,11 +281,11 @@
                           <p><label class="rad"style="margin-left: 11%;" id="false7"><input type="radio" name="pil3" onchange="sal3()"/>&nbsp;b. Ditiup</label></p>
                           <p><label class="rad"style="margin-left: 11%;"><input type="radio" name="pil3" onchange="ben3()"/>&nbsp;c. Dipetik </label></p>
                           <p><label class="rad"style="margin-left: 11%;" id="false8"><input type="radio" name="pil3" value="1" onchange="sal3()"/>&nbsp;d. Dirusak</label></p>
-                              <div class="s3" id="s3" style="display:none"><b>Jawaban salah</b><br>
-                                <p style="font-size: unset !important;">Tonton dan cermati kembali video</p>
-                                </div>
-                              <div class="a3" id="a3" style="display:none"><b>Jawaban benar</b>
-              </div>
+                          <div class="s3" id="s3" style="display:none"><center><b>Jawaban salah<img src="../img/salah.png" height="50px" width="50px" ></b><br></center>
+                            <p style="font-size: unset !important;"><center> Tonton dan cermati kembali video untuk memilih jawaban benar</p></center>
+                            </div>
+                          <div class="a3" id="a3" style="display:none"><center><b>Jawaban benar<img src="../img/tepuk tangan.png" height="50px" width="50px" ></b></center>
+          </div>
               <div class="hil" ><br>
                 <ol start="2" class="s" >
                     <li class="h3">&nbsp;Alat musik perkusi di mainkan dengan cara ?</li>
@@ -292,11 +294,11 @@
                       <p><label class="rad"style="margin-left: 11%;" id="sal5"><input type="radio" name="pil2" onchange="sal2()"/>&nbsp;b. Ditiup</label></p>
                       <p><label class="rad"style="margin-left: 11%;"><input type="radio" name="pil2" value="1" onchange="sal2()"/>&nbsp;c. Dipetik</label></p>
                       <p><label class="rad"style="margin-left: 11%;" id="sal6"><input type="radio" name="pil2" onchange="sal2()"/>&nbsp;d. Dirusak</label></p>
-                        <div class="s1" id="s2" style="display:none"><b>Jawaban salah</b><br>
-                          <p style="font-size: unset !important;">Tonton dan cermati kembali video </p>
-                        </div>
-                        <div class="a1" id="a2" style="display:none;"><b>Jawaban benar</b></div>
-              </div>
+                      <div class="s1" id="s2" style="display:none"><center><b>Jawaban salah<img src="../img/salah.png" height="50px" width="50px" ></b><br></center>
+                        <p style="font-size: unset !important;"><center> Tonton dan cermati kembali video untuk memilih jawaban benar</p></center>
+                      </div>
+                      <div class="a1" id="a2" style="display:none;"><center><b>Jawaban benar<img src="../img/tepuk tangan.png" height="50px" width="50px" ></b></center></div>
+            </div>
                        
                     
                      <!-- soal 3 -->
@@ -309,10 +311,10 @@
                           <p><label class="rad"style="margin-left: 11%;" id="sal2"><input type="radio" name="pil" onchange="sal()"/>&nbsp;c. Dipetik</label></p>
                           <p><label class="rad"style="margin-left: 11%;" id="sal3"><input type="radio" name="pil" onchange="sal()"/>&nbsp;d. Dirusak</label></p>
       
-                            <div class="s1" id="s1" style="display:none"><b>Jawaban salah</b><br>
-                                  <p style="font-size: unset !important;">Tonton dan cermati kembali video</p></div>
-                            <div class="a1" id="a1" style="display:none"><b>Jawaban benar</b></div>  
-                      </div>
+                          <div class="s1" id="s1" style="display:none"><center><b>Jawaban salah<img src="../img/salah.png" height="50px" width="50px" ></b><br></center>
+                            <p style="font-size: unset !important;"><center> Tonton dan cermati kembali video untuk memilih jawaban benar</p></center></div>
+                      <div class="a1" id="a1" style="display:none"><center><b>Jawaban benar<img src="../img/tepuk tangan.png" height="50px" width="50px" ></b></center></div>  
+                </div>
                       
                   <!-- </div> -->
                     
@@ -321,7 +323,7 @@
         </div> <br>
               <div class="kes1">
                 <h4><i class="fas fa-chalkboard"></i>&nbsp; Kesimpulan</h4> 
-                <div class="garis"> 
+                <div class="garis "style="font-size: 20px;"> 
                   <!-- <div class="end">
                       <p>Tonton video terlebih dahulu!</p>
                   </div> -->
@@ -340,18 +342,18 @@
                             <b><i> *Tentukan tiga dari Beberapa pilihan dibawah ini manakah yang merupakan contoh dari perubahan bunyi pada alat musik dengan cara KLIK dan GESER pilihan yang tersedia pada kolom BENDA ke kolom BENDA YANG MENGHASILKAN SUARA kemudian cek jawaban anda dengan klik tombol CEK JAWABAN</i></b></p>
                             <br>
                         <br>
-                            <table class="table table-bordered" style="width: 100%; color:black">
-                                <tr class="text-center color:black">
+                            <table class="table " style="width: 100%; color:black;">
+                                <tr class="text-center bg-success">
                                     <td><b>Benda Yang menghasilkan Suara</b></td>
                                     <td><b>BENDA</b></td>
                                 </tr>
                                 <tr>
-                                    <td style="width: 33%;">
+                                    <td style="width: 33%;" >
                                         <div id="tarik" class="kotakDrag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
                                     </td>
                                     
                                 
-                                    <td style="width: 34%;">
+                                    <td style="width: 34%;"">
                                         <div class="kotakDrag2" ondrop="drop(event)" ondragover="allowDrop(event)">
                                             <span id="setrika" class="badge badge-secondary m-1" style="font-size: 18px;" draggable="true" ondragstart="drag(event)">Setrika listrik</span>
                                             <span id="kipas" class="badge badge-secondary m-1" style="font-size: 18px;" draggable="true" ondragstart="drag(event)">Kipas angin</span>

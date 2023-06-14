@@ -267,7 +267,7 @@ span {
 
   text-align: center;
   border-radius: 5px;
-  border: solid rgb(255, 255, 255);
+  border: solid #fff;
   cursor: pointer;
   display: inline-block;
   margin-right: 4%;
@@ -314,8 +314,8 @@ span {
 }
 
 .disablee {
-  background-color: rgb(133, 133, 133) !important;
-  color: rgb(37, 37, 37);
+  background-color: #fff !important;
+  color: #fff;
   cursor: default !important;
 }
 
@@ -560,8 +560,8 @@ td {
   }
 
   label {
-    width: 500px;
-    display: list-item;
+    width: 600px;
+
     margin-left: 26%;
     font-size: 1.6vw;
     margin-top: 10px;

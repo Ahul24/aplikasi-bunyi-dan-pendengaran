@@ -104,12 +104,12 @@ selanjutnya.addEventListener("click", function () {
     // waktu
     countDownDate = new Date().getTime();
     //waktu 30 menit
-    // countDownDate += 1801000;
+    countDownDate += 1801000;
     //waktu 45 menit
     // countDownDate += 2700000;
     // countDownDate += 12000;
     //15 detik
-    countDownDate += 17000;
+    // countDownDate += 17000;
     var x = setInterval(function () {
       var now = new Date().getTime();
       var distance = countDownDate - now;
